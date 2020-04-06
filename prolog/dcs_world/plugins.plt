@@ -4,6 +4,12 @@
 
 test(plugin_property, [true(ID=="CA"), nondet]) :-
     plugin_property(option(ca), id(ID)).
+
+%!  test is semidet.
+%
+%   There are exactly  59  distinct  shell   types  within  the  plug-in
+%   database. Find their names and count them.
+
 test(plugin_property, [true(NumberOfNames==59)]) :-
     findall(
         Name,
