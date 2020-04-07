@@ -16,7 +16,7 @@ test(plugin_property, [true(NumberOfNames==59)]) :-
         distinct(
             Name,
             plugin_property(
-                _,
+                plugin(_),
                 weapon(supply(shells(name(Name)))))), Names),
     length(Names, NumberOfNames).
 
