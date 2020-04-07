@@ -18,6 +18,10 @@
 %       Terrain is defined if it has an ID   string; it has an ID string
 %       matching the plug-in ID.
 %
+%       * plugin(Property:any)
+%
+%       Property of terrain plug-in.
+%
 %   @arg ID of terrain, a string.
 
 terrain_property(Terrain, Property) :-
