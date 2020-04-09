@@ -4032,3 +4032,23 @@ airdrome(persian_gulf(29),warehouses("externalId:390001")).
 airdrome(persian_gulf(29),warehouses("externalId:390002")).
 airdrome(persian_gulf(29),warehouses("externalId:390003")).
 airdrome(persian_gulf(29),warehouses("externalId:390004")).
+
+:- use_module(terrains).
+:- use_module(library(swi/dicts)).
+
+:- multifile dcs:apply_to_variant/2.
+
+dcs:apply_to_variant(format(airdrome), Variant) :-
+    forall(
+        dcs:apply_to_variant(terrain(_), Variant),
+        dcs:apply_to_variant(terrain:format(airdrome), Variant)).
+
+dcs:apply_to_variant(terrain:format(airdrome), Variant) :-
+    dcs:property_of_variant(terrain:id(TerrainID), Variant),
+    terrain_property(Terrain, id(TerrainID)),
+    Term =.. [Terrain, ID],
+    forall(
+        dcs:property_of_variant(terrain:airdrome(ID, Airdrome), Variant),
+        forall(
+                dict_compound(Airdrome, Property),
+                format('~q.~n', [airdrome(Term, Property)]))).
