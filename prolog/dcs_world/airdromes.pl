@@ -4038,6 +4038,17 @@ airdrome(persian_gulf(29),warehouses("externalId:390004")).
 
 :- multifile dcs:apply_to_variant/2.
 
+%!  dcs:apply_to_variant(Apply, Variant) is nondet.
+%
+%   Apply to Variant, as follows.
+%
+%       * format(airdrome)
+%
+%       Formats airdrome/2 terms  by  iterating   through  all  terrains
+%       available on Variant. Uses the   terrain identifier to construct
+%       the airdrome terrain(ID) term. The   second  airdrome/2 property
+%       term decomposes dictionary payloads as nested compound terms.
+
 dcs:apply_to_variant(format(airdrome), Variant) :-
     forall(
         dcs:apply_to_variant(terrain(_), Variant),
