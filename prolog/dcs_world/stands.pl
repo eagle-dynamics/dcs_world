@@ -31,14 +31,14 @@ dcs:property_of_stand(airdrome(Airdrome, crossroad(Crossroad)), Stand) :-
     stand(Stand, crossroad_index(Crossroad)),
     Stand =.. [Airdrome, Crossroad].
 
+:- multifile dcs:property_of_point/2.
+
 dcs:property_of_stand(point(Point), Stand) :-
     dcs:property_of_stand(airdrome(Airdrome, crossroad(_)), Stand),
     airdrome_property(Airdrome, terrain(Terrain, id(_))),
     once(stand_property(Stand, x(X))),
     once(stand_property(Stand, y(Y))),
     dcs:property_of_point(terrain(Terrain, point(X, Y)), Point).
-
-:- multifile dcs:property_of_point/2.
 
 dcs:property_of_point(stand(Stand), Point) :-
     dcs:property_of_stand(point(Point), Stand).
