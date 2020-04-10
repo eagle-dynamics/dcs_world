@@ -1,6 +1,7 @@
 :- module(dcs_world_airdromes, [airdrome_property/2]).
 
 :- use_module(terrains).
+:- use_module(points).
 
 :- multifile dcs:property_of_airdrome/2.
 
@@ -62,6 +63,15 @@ terrain_id(Airdrome, TerrainID) :-
 terrain_id(TerrainID, Terrain, ID) :-
     terrain_property(Terrain, defined),
     TerrainID =.. [Terrain, ID].
+
+dcs:property_of_airdrome(reference(Reference), Airdrome) :-
+    reference_of_airdrome(Reference, Airdrome).
+
+reference_of_airdrome(point(Point), Airdrome) :-
+    airdrome_property(Airdrome, terrain(Terrain, id(_))),
+    once(airdrome_property(Airdrome, reference_point(x(X)))),
+    once(airdrome_property(Airdrome, reference_point(y(Y)))),
+    point_property(Point, terrain(Terrain, point(X, Y))).
 
 airdrome(caucasus(12),abandoned(false)).
 airdrome(caucasus(12),beacons(beacon_id(0,"airfield12_0"))).
