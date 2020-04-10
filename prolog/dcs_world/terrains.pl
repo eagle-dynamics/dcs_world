@@ -35,3 +35,13 @@ dcs:property_of_terrain(id(ID), Terrain) :-
 dcs:property_of_terrain(plugin(Property), Terrain) :-
     plugin_property(plugin(Terrain), type("terrain")),
     plugin_property(plugin(Terrain), Property).
+
+:- multifile dcs:property_of_point/2.
+
+dcs:property_of_point(terrain(Terrain, Property), Point) :-
+    terrain_property(Terrain, defined),
+    property_of_point(Property, Arguments),
+    Point =.. [Terrain|Arguments].
+
+property_of_point(point(X, Y), [X, Y]).
+property_of_point(point(X, Y, Z), [X, Y, Z]).
