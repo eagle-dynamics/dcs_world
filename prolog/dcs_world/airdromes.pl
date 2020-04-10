@@ -5611,6 +5611,11 @@ airdrome(persian_gulf(29),warehouses("externalId:390004")).
 %       available on Variant. Uses the   terrain identifier to construct
 %       the airdrome terrain(ID) term. The   second  airdrome/2 property
 %       term decomposes dictionary payloads as nested compound terms.
+%
+%       Load core variants and terrains   before applying the formatter.
+%       Formatting airdromes requires the core  terrains module. Without
+%       loading core terrains, the formatter   cannot access the variant
+%       nor its terrain payloads.
 
 dcs:apply_to_variant(format(airdrome), Variant) :-
     forall(
