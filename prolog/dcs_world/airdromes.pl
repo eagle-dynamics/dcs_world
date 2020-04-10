@@ -18,7 +18,6 @@
 %       clashes with the _id_  of  the   airdrome  corresponding  to the
 %       string identifier, not the numeric one.
 %
-%       * name(Name:string)
 %       * name(en(Name:string))
 %
 %       Unique Name in English for aerodrome terrain-identifier. Unifies
@@ -43,8 +42,6 @@ dcs:property_of_airdrome(terrain(Terrain, id(ID)), Airdrome) :-
     terrain_id(Airdrome, TerrainID),
     terrain_id(TerrainID, Terrain, ID).
 
-dcs:property_of_airdrome(name(Name), Airdrome) :-
-    dcs:property_of_airdrome(name(en(Name)), Airdrome).
 dcs:property_of_airdrome(name(en(Name)), Airdrome) :-
     terrain_id(Airdrome, TerrainID),
     name_en(TerrainID, Name).
@@ -5592,7 +5589,7 @@ airdrome(persian_gulf(29),warehouses("externalId:390004")).
 :- use_module(terrains).
 :- use_module(library(swi/dicts)).
 
-:- multifile dcs:apply_to_variant/2.
+:- multifile dcs:apply_to_variant/2, dcs:property_of_variant/2.
 
 %!  dcs:apply_to_variant(Apply, Variant) is nondet.
 %
