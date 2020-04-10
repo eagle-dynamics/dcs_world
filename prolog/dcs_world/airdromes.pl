@@ -47,7 +47,7 @@ dcs:property_of_airdrome(name(en(Name)), Airdrome) :-
     name_en(TerrainID, Name).
 
 name_en(TerrainID, Name) :-
-    airdrome(TerrainID, _),
+    distinct(TerrainID, airdrome(TerrainID, _)),
     once(airdrome(TerrainID, names(en(Name)))).
 
 :- table name_en/2.
