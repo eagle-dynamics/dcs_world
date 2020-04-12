@@ -22,8 +22,11 @@
 %
 %   @arg Crossroad integer index of stand within Airdrome.
 
-stand_property(Stand, Property) :- stand(Stand, Property).
-stand_property(Stand, Property) :- dcs:property_of_stand(Property, Stand).
+stand_property(Stand, Property) :-
+    stand(Stand, Property).
+stand_property(Stand, Property) :-
+    dcs:property_of_stand(defined, Stand),
+    dcs:property_of_stand(Property, Stand).
 
 dcs:property_of_stand(defined, Stand) :-
     dcs:property_of_stand(airdrome(_, crossroad(_)), Stand).
