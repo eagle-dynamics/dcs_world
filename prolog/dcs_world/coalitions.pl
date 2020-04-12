@@ -21,7 +21,15 @@ coalition_apply(Coalition, Apply) :-
 %       Side index for Coalition.
 %
 %       * hostile(Hostile:atom)
+%
+%       Succeeds if Hostile is *not* neutral and not on the same side.
+%
 %       * friendly(Friendly:atom)
+%
+%       Succeeds  if  Coalition  is  friends    with   another  Friendly
+%       coalition, meaning belonging to the same coalition. Red and blue
+%       are not friendly with neutrals,  but   are  not  hostile either.
+%       Units are coalition objects: they know their coalition.
 %
 %   @arg Coalition atomic name for coalition
 %   @arg Side integer index assigned to Coalition
@@ -29,6 +37,7 @@ coalition_apply(Coalition, Apply) :-
 coalition_property(Coalition, side(Side)) :-
     side(Coalition, Side).
 coalition_property(Coalition, Property) :-
+    dcs:property_of_coalition(defined, Coalition),
     dcs:property_of_coalition(Property, Coalition).
 
 dcs:property_of_coalition(defined, Coalition) :-
