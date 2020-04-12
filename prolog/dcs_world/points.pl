@@ -1,5 +1,9 @@
 :- module(dcs_world_points, [point_property/2]).
 
+/** <module> Somewhere within a theatre
+ *
+ */
+
 :- multifile dcs:property_of_point/2.
 
 point_property(Point, Property) :-

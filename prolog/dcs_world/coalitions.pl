@@ -1,5 +1,9 @@
 :- module(dcs_world_coalitions, [coalition_apply/2, coalition_property/2]).
 
+/** <module> Neutral, red or blue
+ *
+ */
+
 :- multifile dcs:apply_to_coalition/2.
 
 %!  coalition_apply(?Coalition:atom, ?Apply) is nondet.

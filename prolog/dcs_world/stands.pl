@@ -2,6 +2,10 @@
 
 :- use_module(airdromes).
 
+/** <module> Parking spot at airdrome
+ *
+ */
+
 :- multifile dcs:property_of_stand/2.
 
 %!  stand_property(?Stand, ?Property) is nondet.
