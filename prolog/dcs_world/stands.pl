@@ -18,6 +18,8 @@
 %
 %       * airdrome(Airdrome:atom, crossroad(Crossroad:positive_integer))
 %
+%       * airdrome(Airdrome:atom)
+%
 %       * alpha(Alpha:atom)
 %
 %       The first letter of the stand restyled  as a lowercase atom, =h=
@@ -123,6 +125,8 @@ dcs:property_of_stand(defined, Stand) :-
 dcs:property_of_stand(airdrome(Airdrome, crossroad(Crossroad)), Stand) :-
     stand(Stand, crossroad_index(Crossroad)),
     Stand =.. [Airdrome, Crossroad].
+dcs:property_of_stand(airdrome(Airdrome), Stand) :-
+    dcs:property_of_stand(airdrome(Airdrome, crossroad(_)), Stand).
 
 dcs:property_of_stand(alpha(Alpha), Stand) :-
     stand_property(Stand, name(Name)),
