@@ -16,6 +16,9 @@ coalition_apply(Coalition, Apply) :-
 %   Property of Coalition.
 %
 %       * defined
+%
+%       Succeeds for defined coalitions. Fails otherwise.
+%
 %       * side(Side:nonneg)
 %
 %       Side index for Coalition.
