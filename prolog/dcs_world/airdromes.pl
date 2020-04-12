@@ -34,6 +34,7 @@ airdrome_property(Airdrome, Property) :-
     terrain_id(Airdrome, TerrainID),
     airdrome(TerrainID, Property).
 airdrome_property(Airdrome, Property) :-
+    dcs:property_of_airdrome(defined, Airdrome),
     dcs:property_of_airdrome(Property, Airdrome).
 
 dcs:property_of_airdrome(defined, Airdrome) :-
