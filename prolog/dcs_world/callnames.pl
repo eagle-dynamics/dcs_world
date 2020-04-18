@@ -1,6 +1,6 @@
 :- module(dcs_world_callnames, [callname_property/2]).
 
-/** <module> Call names
+/** <module> Callsign names
  *
  * Call names (short for callsign  names)   are  the names of aircraft,
  * heavy aircraft, vehicles, reference points,   AWACS, helipads, grass
@@ -38,6 +38,8 @@
 :- multifile dcs:property_of_callname/2.
 
 %!  callname_property(?Callname:compound, ?Property) is nondet.
+%
+%   Property of Callname.
 
 callname_property(Callname, Property) :-
     callname(Callname, Property).
