@@ -4,6 +4,7 @@
 
 /** <module> Parking spot at airdrome
  *
+ * @author R3DL1N3 <r0y@digitalcombatsimulator.world>
  */
 
 :- multifile dcs:property_of_stand/2.

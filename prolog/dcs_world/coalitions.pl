@@ -2,6 +2,7 @@
 
 /** <module> Neutral, red or blue
  *
+ * @author R3DL1N3 <r0y@digitalcombatsimulator.world>
  */
 
 :- multifile dcs:apply_to_coalition/2.

@@ -33,6 +33,7 @@
  *     Callname = air(enfield), ID = 1 ;
  *     false.
  *
+ * @author R3DL1N3 <r0y@digitalcombatsimulator.world>
  */
 
 :- multifile dcs:property_of_callname/2.

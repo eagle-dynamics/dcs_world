@@ -2,6 +2,7 @@
 
 /** <module> Somewhere within a theatre
  *
+ * @author R3DL1N3 <r0y@digitalcombatsimulator.world>
  */
 
 :- multifile dcs:property_of_point/2.
