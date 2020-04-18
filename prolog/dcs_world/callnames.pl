@@ -1,39 +1,43 @@
 :- module(dcs_world_callnames, [callname_property/2]).
 
+/** <module> Call names
+ *
+ * Call names (short for callsign  names)   are  the names of aircraft,
+ * heavy aircraft, vehicles, reference points,   AWACS, helipads, grass
+ * airfields and aircraft carriers. Enfield,  Springfield, Uzi and Colt
+ * are  the  first  four  aircraft  call   names,  for  example.  Named
+ * presumably for guns. Axeman, Darknight,   Warrior and Pointer belong
+ * to ground vehicles, as  another  example.   London  and  Dallas  for
+ * helipads, and so on.
+ *
+ * Call names belong to a category and a   country.  Each has a name, a
+ * world identifier plus an optional  sound   file.  They are important
+ * because the mission payloads include   mandatory  callsign names and
+ * numbers. In raw form, the call-name  payloads deconstruct by country
+ * then category. Raw country uses  the   world  integer identifier for
+ * country representation. The cooked version  of the call-name payload
+ * maps the raw country identifier with its   atomic name, also the raw
+ * category name as well as the cooked category atom.
+ *
+ * Important to note that  call  names   are  not  unique outside their
+ * category. There are no  less  than   three  Enfield  call  names for
+ * example; one for A-10A, another for A-10C   and  a final one for Air
+ * category. For this reason, Callname is a   compound term of the form
+ * Category(Name)   and   hence   disambiguates     for    Enfield   as
+ * a_10a(enfield), a_10c(enfield) and air(enfield). They carry the same
+ * world identifier in the current versions of DCS; see below.
+ *
+ *     ?- callname_property(Callname, world_id(ID)), Callname =.. [_, enfield].
+ *     Callname = a_10a(enfield), ID = 1 ;
+ *     Callname = a_10c(enfield), ID = 1 ;
+ *     Callname = air(enfield), ID = 1 ;
+ *     false.
+ *
+ */
+
 :- multifile dcs:property_of_callname/2.
 
 %!  callname_property(?Callname:compound, ?Property) is nondet.
-%
-%   Call names (short for callsign  names)   are  the names of aircraft,
-%   heavy aircraft, vehicles, reference points,   AWACS, helipads, grass
-%   airfields and aircraft carriers. Enfield,  Springfield, Uzi and Colt
-%   are  the  first  four  aircraft  call   names,  for  example.  Named
-%   presumably for guns. Axeman, Darknight,   Warrior and Pointer belong
-%   to ground vehicles, as  another  example.   London  and  Dallas  for
-%   helipads, and so on.
-%
-%   Call names belong to a category and a   country.  Each has a name, a
-%   world identifier plus an optional  sound   file.  They are important
-%   because the mission payloads include   mandatory  callsign names and
-%   numbers. In raw form, the call-name  payloads deconstruct by country
-%   then category. Raw country uses  the   world  integer identifier for
-%   country representation. The cooked version  of the call-name payload
-%   maps the raw country identifier with its   atomic name, also the raw
-%   category name as well as the cooked category atom.
-%
-%   Important to note that  call  names   are  not  unique outside their
-%   category. There are no  less  than   three  Enfield  call  names for
-%   example; one for A-10A, another for A-10C   and  a final one for Air
-%   category. For this reason, Callname is a   compound term of the form
-%   Category(Name)   and   hence   disambiguates     for    Enfield   as
-%   a_10a(enfield), a_10c(enfield) and air(enfield). They carry the same
-%   world identifier in the current versions of DCS; see below.
-%
-%       ?- callname_property(Callname, world_id(ID)), Callname =.. [_, enfield].
-%       Callname = a_10a(enfield), ID = 1 ;
-%       Callname = a_10c(enfield), ID = 1 ;
-%       Callname = air(enfield), ID = 1 ;
-%       false.
 
 callname_property(Callname, Property) :-
     callname(Callname, Property).
