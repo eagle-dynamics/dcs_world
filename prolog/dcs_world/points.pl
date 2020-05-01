@@ -28,6 +28,17 @@
 %       * easting(Easting)
 %       * altitude(Altitude)
 %       * dimensions(Dimensions)
+%
+%   @arg Point compound
+%   @arg Property compound
+%   @arg Terrain atom
+%   @arg X number
+%   @arg Y number
+%   @arg Z number
+%   @arg Northing number
+%   @arg Easting number
+%   @arg Altitude number
+%   @arg Dimensions number
 
 point_property(Point, Property) :-
     dcs:property_of_point(Property, Point).
