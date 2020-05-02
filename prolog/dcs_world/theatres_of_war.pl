@@ -31,6 +31,7 @@
 theatre_of_war_property(TheatreOfWar, Property) :-
     theatre_of_war(TheatreOfWar, Property).
 theatre_of_war_property(TheatreOfWar, Property) :-
+    dcs:property_of_theatre_of_war(defined, TheatreOfWar),
     dcs:property_of_theatre_of_war(Property, TheatreOfWar).
 
 dcs:property_of_theatre_of_war(defined, TheatreOfWar) :-
