@@ -21,6 +21,12 @@
 %
 %       * airdrome(Airdrome:atom)
 %
+%       * terrain(Terrain:atom)
+%
+%       Terrain of stand by finding the   stand's  airdrome then finding
+%       the airdrome's terrain. Follows the  container relationship from
+%       stand to airdrome, airdrome to terrain.
+%
 %       * alpha(Alpha:atom)
 %
 %       The first letter of the stand restyled  as a lowercase atom, =h=
@@ -128,6 +134,9 @@ dcs:property_of_stand(airdrome(Airdrome, crossroad(Crossroad)), Stand) :-
     Stand =.. [Airdrome, Crossroad].
 dcs:property_of_stand(airdrome(Airdrome), Stand) :-
     dcs:property_of_stand(airdrome(Airdrome, crossroad(_)), Stand).
+dcs:property_of_stand(terrain(Terrain), Stand) :-
+    dcs:property_of_stand(airdrome(Airdrome), Stand),
+    airdrome_property(Airdrome, terrain(Terrain)).
 
 dcs:property_of_stand(alpha(Alpha), Stand) :-
     stand_property(Stand, name(Name)),

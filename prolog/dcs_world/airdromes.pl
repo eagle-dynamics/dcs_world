@@ -19,6 +19,13 @@
 %       clashes with the _id_  of  the   airdrome  corresponding  to the
 %       string identifier, not the numeric one.
 %
+%       * terrain(Terrain:atom)
+%
+%       Shortcut for terrain(Terrain, id(_)) property of Airdrome. Finds
+%       the terrain and identifier of the  airdrome and then throws away
+%       the identifier. Used  by  stand_property/2   to  find  a stand's
+%       terrain.
+%
 %       * name(en(Name:string))
 %
 %       Unique Name in English for aerodrome terrain-identifier. Unifies
@@ -43,6 +50,8 @@ dcs:property_of_airdrome(defined, Airdrome) :-
 dcs:property_of_airdrome(terrain(Terrain, id(ID)), Airdrome) :-
     terrain_id(Airdrome, TerrainID),
     terrain_id(TerrainID, Terrain, ID).
+dcs:property_of_airdrome(terrain(Terrain), Airdrome) :-
+    dcs:property_of_airdrome(terrain(Terrain, id(_)), Airdrome).
 
 dcs:property_of_airdrome(name(en(Name)), Airdrome) :-
     terrain_id(Airdrome, TerrainID),
