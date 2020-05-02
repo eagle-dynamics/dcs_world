@@ -15,7 +15,7 @@
 
 :- multifile dcs:property_of_point/2.
 
-%!  point_property(+Point, ?Property) is nondet.
+%!  point_property(?Point, ?Property) is nondet.
 %
 %   Property of Point.
 %
