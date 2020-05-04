@@ -248,9 +248,9 @@ desc(defined, Type) :- desc(type_name(_), Type).
 :- include(types/desc).
 
 dcs:property_of_type(group:Property, Type) :-
-    property_of_group(Property, Type).
+    group(Property, Type).
 
-property_of_group(category(Category), Type) :-
+group(category(Category), Type) :-
     desc(category(Category0), Type),
     category_property(Category, group:category(Category0)).
 
