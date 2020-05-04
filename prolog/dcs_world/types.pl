@@ -1,5 +1,7 @@
 :- module(dcs_world_types, [type_property/2]).
 
+:- use_module(library(linear/algebra)).
+
 :- use_module(plugins).
 :- use_module(categories).
 
@@ -225,6 +227,14 @@
 %       Vertices unify with the four two-dimensional vectors of the unit
 %       type's bounding box. The  vertices   wind  clockwise  from above
 %       starting from the port quarter to the starboard quarter.
+%
+%       * radius(Radius:number)
+%
+%       Radius of Type, a scalar horizontal distance. A unit type's
+%       radius equates to the longest diagonal extent of the type's
+%       bounding box relative to its centre such that the radius
+%       describes a circle centred on its origin that encompasses the
+%       entire model.
 
 type_property(Type, unit:Property) :- unit(Property, Type).
 type_property(Type, desc:Property) :- desc(Property, Type).
@@ -269,8 +279,14 @@ polygon(vertex(X, Y), Type) :-
     vertex(Min, Max, X, Y).
 polygon(vertices(Vertices), Type) :-
     findall(vertex(X, Y), polygon(vertex(X, Y), Type), Vertices).
+polygon(radius(Radius), Type) :-
+    polygon(vertices(Vertices), Type),
+    maplist(distance, Vertices, Distances),
+    max_list(Distances, Radius).
 
 vertex([X0, _, Y0], _, X0, Y0).
 vertex([X0, _, _], [_, _, Y], X0, Y).
 vertex(_, [X, _, Y], X, Y).
 vertex([_, _, Y0], [X, _, _], X, Y0).
+
+distance(vertex(X, Y), Distance) :- once(vector_distance([X, Y], Distance)).
