@@ -3,15 +3,95 @@
 :- use_module(plugins).
 :- use_module(categories).
 
+/** <module> Unit types and descriptions
+ *
+ * ### Non-core types
+ *
+ * Non-core  types  unify  using   type_property(Type,  plugin(Plugin)),
+ * plugin_property(plugin(Plugin), is_core(false)) as follows.   Use  of
+ * such  types  trigger  additional  module    requirements  in  mission
+ * payloads.
+ *
+ * |     kubelwagen_82      |wwii_armour_and_technics|
+ * |     blitz_36_6700a     |wwii_armour_and_technics|
+ * |        sd_kfz_2        |wwii_armour_and_technics|
+ * |        sd_kfz_7        |wwii_armour_and_technics|
+ * |horch_901_typ_40_kfz_21 |wwii_armour_and_technics|
+ * |        tiger_i         |wwii_armour_and_technics|
+ * |       tiger_ii_h       |wwii_armour_and_technics|
+ * |     pz_v_panther_g     |wwii_armour_and_technics|
+ * |        pz_iv_h         |wwii_armour_and_technics|
+ * |     jagdpanther_g1     |wwii_armour_and_technics|
+ * |       jagd_pz_iv       |wwii_armour_and_technics|
+ * |        stug_iv         |wwii_armour_and_technics|
+ * |      sturm_pz_iv       |wwii_armour_and_technics|
+ * |   sd_kfz_234_2_puma    |wwii_armour_and_technics|
+ * |       sd_kfz_251       |wwii_armour_and_technics|
+ * |         flak18         |wwii_armour_and_technics|
+ * |         flak30         |wwii_armour_and_technics|
+ * |         flak36         |wwii_armour_and_technics|
+ * |         flak37         |wwii_armour_and_technics|
+ * |         flak38         |wwii_armour_and_technics|
+ * |       kdo_mod40        |wwii_armour_and_technics|
+ * |  flakscheinwerfer_37   |wwii_armour_and_technics|
+ * |    maschinensatz_33    |wwii_armour_and_technics|
+ * |    soldier_mauser98    |wwii_armour_and_technics|
+ * |   sk_c_28_naval_gun    |wwii_armour_and_technics|
+ * |      fire_control      |wwii_armour_and_technics|
+ * |      bedford_mwd       |wwii_armour_and_technics|
+ * |      cromwell_iv       |wwii_armour_and_technics|
+ * |    m4a4_sherman_ff     |wwii_armour_and_technics|
+ * |        bofors40        |wwii_armour_and_technics|
+ * |   soldier_wwii_br_01   |wwii_armour_and_technics|
+ * |        cckw_353        |wwii_armour_and_technics|
+ * |       willys_mb        |wwii_armour_and_technics|
+ * |       m4_sherman       |wwii_armour_and_technics|
+ * |        m12_gmc         |wwii_armour_and_technics|
+ * |         m30_cc         |wwii_armour_and_technics|
+ * |     m2a1_halftrack     |wwii_armour_and_technics|
+ * |    soldier_wwii_us     |wwii_armour_and_technics|
+ * |  dr_50ton_flat_wagon   |wwii_armour_and_technics|
+ * |      drg_class_86      |wwii_armour_and_technics|
+ * |german_covered_wagon_g10|wwii_armour_and_technics|
+ * |   german_tank_wagon    |wwii_armour_and_technics|
+ * |      belgian_gate      |wwii_armour_and_technics|
+ * |    concertina_wire     |wwii_armour_and_technics|
+ * |       tetrahydra       |wwii_armour_and_technics|
+ * |  hemmkurvenhindernis   |wwii_armour_and_technics|
+ * |   czech_hedgehogs_1    |wwii_armour_and_technics|
+ * |   czech_hedgehogs_2    |wwii_armour_and_technics|
+ * |     dragonteeth_1      |wwii_armour_and_technics|
+ * |     dragonteeth_2      |wwii_armour_and_technics|
+ * |     dragonteeth_3      |wwii_armour_and_technics|
+ * |     dragonteeth_4      |wwii_armour_and_technics|
+ * |     dragonteeth_5      |wwii_armour_and_technics|
+ * |  fire_control_bunker   |wwii_armour_and_technics|
+ * |       haystack_1       |wwii_armour_and_technics|
+ * |       haystack_2       |wwii_armour_and_technics|
+ * |       haystack_3       |wwii_armour_and_technics|
+ * |       haystack_4       |wwii_armour_and_technics|
+ * |      log_posts_1       |wwii_armour_and_technics|
+ * |      log_posts_2       |wwii_armour_and_technics|
+ * |      log_posts_3       |wwii_armour_and_technics|
+ * |      log_ramps_1       |wwii_armour_and_technics|
+ * |      log_ramps_2       |wwii_armour_and_technics|
+ * |      log_ramps_3       |wwii_armour_and_technics|
+ * |     siegfried_line     |wwii_armour_and_technics|
+ * |         b_17g          |wwii_armour_and_technics|
+ * |        lst_mk2         |wwii_armour_and_technics|
+ * |    uss_samuel_chase    |wwii_armour_and_technics|
+ * |      higgins_boat      |wwii_armour_and_technics|
+ *
+ * @author R3DL1N3 <r0y@digitalcombatsimulator.world>
+ */
+
 :- multifile dcs:property_of_type/2.
 
 %!  type_property(?Type:atom, ?Property) is nondet.
 %
 %   Property of Type as follows.
 %
-%   ---+++ unit:Property
-%
-%   Property of unit Type as follows.
+%       * defined
 %
 %       * plugin(Plugin)
 %
@@ -94,30 +174,39 @@
 %           |            '054a'             |china_asset_pack_by_deka_ironwork_simulations_and_eagle_dynamics|
 %           |            '052c'             |china_asset_pack_by_deka_ironwork_simulations_and_eagle_dynamics|
 %           |           type_093            |china_asset_pack_by_deka_ironwork_simulations_and_eagle_dynamics|
+%
+%   ---+++ unit:Property
+%
+%   Property of Type unit as follows.
+%
+%       * defined
+%
+%       * type(Type0:string)
+%
+%       Unit "type" and unit:type property  match after translation from
+%       string to an underscore-restyled and down-cased identifier. Some
+%       unit Type atoms require quoting  (surrounded with single quotes)
+%       because they begin with a number, rather than a letter.
+%
+%   ---+++ desc:Property
+%
+%   Property of Type description as follows.
+%
+%       * defined
+%
+%   ---+++ group:Property
+%
+%   Property of Type group as follows.
 
 type_property(Type, unit:Property) :- property_of_unit(Property, Type).
 type_property(Type, desc:Property) :- property_of_desc(Property, Type).
 type_property(Type, Property) :- dcs:property_of_type(Property, Type).
 
-dcs:property_of_type(defined, Type) :-
-    defined(Type).
-
-defined(Type) :-
-    property_of_unit(defined, Type).
-defined(Type) :-
-    property_of_desc(defined, Type),
-    \+ property_of_unit(defined, Type).
+dcs:property_of_type(defined, Type) :- property_of_unit(defined, Type).
 
 dcs:property_of_type(plugin(Plugin), Type) :-
     type_property(Type, desc:origin(Origin)),
     plugin_property(plugin(Plugin), id(Origin)).
-
-dcs:property_of_type(group:Property, Type) :-
-    property_of_group(Property, Type).
-
-property_of_group(category(Category), Type) :-
-    property_of_desc(category(Category0), Type),
-    category_property(Category, group:category(Category0)).
 
 property_of_unit(defined, Type) :- property_of_unit(type(_), Type).
 
@@ -126,3 +215,10 @@ property_of_unit(defined, Type) :- property_of_unit(type(_), Type).
 property_of_desc(defined, Type) :- property_of_desc(type_name(_), Type).
 
 :- include(types/property_of_desc).
+
+dcs:property_of_type(group:Property, Type) :-
+    property_of_group(Property, Type).
+
+property_of_group(category(Category), Type) :-
+    property_of_desc(category(Category0), Type),
+    category_property(Category, group:category(Category0)).
