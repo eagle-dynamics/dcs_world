@@ -93,6 +93,13 @@
 %
 %       * defined
 %
+%       * box(Min:list(number), Max:list(number))
+%
+%       Bounding  box,  minimum  and  maximum  three-dimensional  vector
+%       lists.  Min  is  the  three-dimensional  vector  of  the  lowest
+%       bounding-box corner, and Max is  the three-dimensional vector of
+%       the highest bounding-box corner.
+%
 %       * plugin(Plugin)
 %
 %       Plug-in  of  Type.  Uses  the  type  description  properties  to
@@ -205,6 +212,14 @@ type_property(Type, Property) :-
     dcs:property_of_type(Property, Type).
 
 dcs:property_of_type(defined, Type) :- unit(defined, Type).
+
+dcs:property_of_type(box([X0, Y0, Z0], [X, Y, Z]), Type) :-
+    once(type_property(Type, desc:box(min(x(X0))))),
+    once(type_property(Type, desc:box(min(y(Y0))))),
+    once(type_property(Type, desc:box(min(z(Z0))))),
+    once(type_property(Type, desc:box(max(x(X))))),
+    once(type_property(Type, desc:box(max(y(Y))))),
+    once(type_property(Type, desc:box(max(z(Z))))).
 
 dcs:property_of_type(plugin(Plugin), Type) :-
     type_property(Type, desc:origin(Origin)),
