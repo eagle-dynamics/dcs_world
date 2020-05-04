@@ -198,27 +198,27 @@
 %
 %   Property of Type group as follows.
 
-type_property(Type, unit:Property) :- property_of_unit(Property, Type).
-type_property(Type, desc:Property) :- property_of_desc(Property, Type).
+type_property(Type, unit:Property) :- unit(Property, Type).
+type_property(Type, desc:Property) :- desc(Property, Type).
 type_property(Type, Property) :- dcs:property_of_type(Property, Type).
 
-dcs:property_of_type(defined, Type) :- property_of_unit(defined, Type).
+dcs:property_of_type(defined, Type) :- unit(defined, Type).
 
 dcs:property_of_type(plugin(Plugin), Type) :-
     type_property(Type, desc:origin(Origin)),
     plugin_property(plugin(Plugin), id(Origin)).
 
-property_of_unit(defined, Type) :- property_of_unit(type(_), Type).
+unit(defined, Type) :- unit(type(_), Type).
 
-:- include(types/property_of_unit).
+:- include(types/unit).
 
-property_of_desc(defined, Type) :- property_of_desc(type_name(_), Type).
+desc(defined, Type) :- desc(type_name(_), Type).
 
-:- include(types/property_of_desc).
+:- include(types/desc).
 
 dcs:property_of_type(group:Property, Type) :-
     property_of_group(Property, Type).
 
 property_of_group(category(Category), Type) :-
-    property_of_desc(category(Category0), Type),
+    desc(category(Category0), Type),
     category_property(Category, group:category(Category0)).
