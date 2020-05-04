@@ -200,7 +200,9 @@
 
 type_property(Type, unit:Property) :- unit(Property, Type).
 type_property(Type, desc:Property) :- desc(Property, Type).
-type_property(Type, Property) :- dcs:property_of_type(Property, Type).
+type_property(Type, Property) :-
+    unit(defined, Type),
+    dcs:property_of_type(Property, Type).
 
 dcs:property_of_type(defined, Type) :- unit(defined, Type).
 
