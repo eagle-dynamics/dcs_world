@@ -217,7 +217,14 @@
 %       non-deterministically in clockwise winding order: bottom-left to
 %       top-left,  top-right  then  bottom-right.    The   description's
 %       bounding  box  is  three  dimensional.    Removes  the  vertical
-%       dimension, altitude.
+%       dimension, altitude. Important to note that   X  is the northing
+%       and Y is the easting.
+%
+%       * vertices(Vertices:list(compound))
+%
+%       Vertices unify with the four two-dimensional vectors of the unit
+%       type's bounding box. The  vertices   wind  clockwise  from above
+%       starting from the port quarter to the starboard quarter.
 
 type_property(Type, unit:Property) :- unit(Property, Type).
 type_property(Type, desc:Property) :- desc(Property, Type).
