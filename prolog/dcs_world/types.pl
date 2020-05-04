@@ -204,6 +204,20 @@
 %   ---+++ group:Property
 %
 %   Property of Type group as follows.
+%
+%       * category(Category:atom)
+%
+%   ---+++ polygon:Property
+%
+%   Property of Type polygon as follows.
+%
+%       * vertex(X:number, Y:number)
+%
+%       Unifies     with     all     four      bounding-box     vertices
+%       non-deterministically in clockwise winding order: bottom-left to
+%       top-left,  top-right  then  bottom-right.    The   description's
+%       bounding  box  is  three  dimensional.    Removes  the  vertical
+%       dimension, altitude.
 
 type_property(Type, unit:Property) :- unit(Property, Type).
 type_property(Type, desc:Property) :- desc(Property, Type).
@@ -239,3 +253,17 @@ dcs:property_of_type(group:Property, Type) :-
 property_of_group(category(Category), Type) :-
     desc(category(Category0), Type),
     category_property(Category, group:category(Category0)).
+
+dcs:property_of_type(polygon:Property, Type) :-
+    polygon(Property, Type).
+
+polygon(vertex(X, Y), Type) :-
+    dcs:property_of_type(box(Min, Max), Type),
+    vertex(Min, Max, X, Y).
+polygon(vertices(Vertices), Type) :-
+    findall(vertex(X, Y), polygon(vertex(X, Y), Type), Vertices).
+
+vertex([X0, _, Y0], _, X0, Y0).
+vertex([X0, _, _], [_, _, Y], X0, Y).
+vertex(_, [X, _, Y], X, Y).
+vertex([_, _, Y0], [X, _, _], X, Y0).
