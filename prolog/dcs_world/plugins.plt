@@ -2,7 +2,7 @@
 
 :- use_module(plugins).
 
-test(plugin_property, [true(ID=="CA"), nondet]) :-
+test(plugin_property, [true(ID=="CA")]) :-
     plugin_property(option(ca), id(ID)).
 
 %!  test is semidet.
