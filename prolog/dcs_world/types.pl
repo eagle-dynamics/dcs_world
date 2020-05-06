@@ -102,6 +102,10 @@
 %       bounding-box corner, and Max is  the three-dimensional vector of
 %       the highest bounding-box corner.
 %
+%       * dimensions(Dimensions:list(number))
+%
+%       Dimension vector of Type using the bounding box.
+%
 %       * plugin(Plugin)
 %
 %       Plug-in  of  Type.  Uses  the  type  description  properties  to
@@ -251,6 +255,11 @@ dcs:property_of_type(box([X0, Y0, Z0], [X, Y, Z]), Type) :-
     once(type_property(Type, desc:box(max(x(X))))),
     once(type_property(Type, desc:box(max(y(Y))))),
     once(type_property(Type, desc:box(max(z(Z))))).
+
+dcs:property_of_type(dimensions(Dimensions), Type) :-
+    dcs:property_of_type(box(Min, Max), Type),
+    once(vector_scale(-1, Min, Vector)),
+    once(vector_translate(Vector, Max, Dimensions)).
 
 dcs:property_of_type(plugin(Plugin), Type) :-
     type_property(Type, desc:origin(Origin)),
