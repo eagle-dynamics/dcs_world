@@ -5629,7 +5629,7 @@ airdrome(persian_gulf(29),warehouses("externalId:390004")).
 
 dcs:apply_to_variant(format(airdrome), Variant) :-
     forall(
-        dcs:apply_to_variant(terrain(_), Variant),
+        dcs:apply_to_variant(theatre_of_war(_), Variant),
         dcs:apply_to_variant(terrain:format(airdrome), Variant)).
 
 dcs:apply_to_variant(terrain:format(airdrome), Variant) :-
