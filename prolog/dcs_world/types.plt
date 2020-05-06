@@ -1,5 +1,7 @@
 :- begin_tests(dcs_world_types).
 
+:- use_module(library(print/table)).
+
 :- use_module(types).
 
 test(type_property,
