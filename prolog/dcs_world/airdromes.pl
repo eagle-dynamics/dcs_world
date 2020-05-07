@@ -89,6 +89,7 @@ reference_of_airdrome(point(Point), Airdrome) :-
 :- use_module(library(swi/dicts)).
 
 :- multifile dcs:apply_to_variant/2, dcs:property_of_variant/2.
+:- public dcs:apply_to_variant/2, dcs:property_of_variant/2.
 
 %!  dcs:apply_to_variant(Apply, Variant) is nondet.
 %
