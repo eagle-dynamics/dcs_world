@@ -91,7 +91,7 @@ reference_of_airdrome(point(Point), Airdrome) :-
 :- multifile dcs:apply_to_variant/2, dcs:property_of_variant/2.
 :- public dcs:apply_to_variant/2, dcs:property_of_variant/2.
 
-%!  dcs:apply_to_variant(Apply, Variant) is nondet.
+%!  dcs:apply_to_variant(+Apply, ?Variant:atom) is nondet.
 %
 %   Apply to Variant, as follows.
 %
