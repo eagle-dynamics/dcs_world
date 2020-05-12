@@ -4,6 +4,8 @@
 
 test(plugin_property, [true(ID=="CA")]) :-
     plugin_property(option(ca), id(ID)).
+test(plugin_property, [true(Option==ca)]) :-
+    plugin_property(option(Option), id("CA")).
 
 %!  test is semidet.
 %
