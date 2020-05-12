@@ -115,7 +115,7 @@
 %
 %       Hence, you can discover all core type plug-ins using the
 %       following query, type_property(Type, plugin(Plugin)),
-%       plugin_property(plugin(Plugin), is_core(true)).
+%       plugin_property(plugin:Plugin, is_core(true)).
 %
 %           |      electric_locomotive      |                      railway_objects_pack                      |
 %           |          locomotive           |                      railway_objects_pack                      |
@@ -263,7 +263,7 @@ dcs:property_of_type(dimensions(Dimensions), Type) :-
 
 dcs:property_of_type(plugin(Plugin), Type) :-
     type_property(Type, desc:origin(Origin)),
-    plugin_property(plugin(Plugin), id(Origin)).
+    plugin_property(plugin:Plugin, id(Origin)).
 
 unit(defined, Type) :- unit(type(_), Type).
 
