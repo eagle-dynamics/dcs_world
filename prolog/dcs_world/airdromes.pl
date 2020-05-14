@@ -42,25 +42,35 @@
 %   @arg ID number of aerodrome.
 
 airdrome_property(Airdrome, Property) :-
-    of_airdrome(Property, Airdrome).
-airdrome_property(Airdrome, Property) :-
-    of_airdrome(defined, Airdrome),
+    dcs:property_of_airdrome(defined, Airdrome),
     dcs:property_of_airdrome(Property, Airdrome).
 
+dcs:property_of_airdrome(defined, Airdrome) :-
+    dcs:property_of_airdrome(config:defined, Airdrome).
+
+dcs:property_of_airdrome(terrain(Terrain, id(AirdromeID)), Airdrome) :-
+    dcs:property_of_airdrome(config:terrain(Terrain, id(AirdromeID)), Airdrome).
+
 dcs:property_of_airdrome(terrain(Terrain), Airdrome) :-
-    airdrome_property(Airdrome, terrain(Terrain, id(_))).
+    dcs:property_of_airdrome(terrain(Terrain, id(_)), Airdrome).
 
-:- table of_airdrome/2 as shared.
+dcs:property_of_airdrome(code(Code), Airdrome) :-
+    dcs:property_of_airdrome(config:code(Code), Airdrome).
 
-of_airdrome(defined, Airdrome) :-
-    of_airdrome(en(Airdrome), _, _).
-of_airdrome(terrain(Terrain, id(AirdromeID)), Airdrome) :-
-    of_airdrome(en(Airdrome), Terrain, AirdromeID).
-of_airdrome(Property, Airdrome) :-
-    of_airdrome(en(Airdrome), Terrain, AirdromeID),
-    of_airdrome(Property, Terrain, AirdromeID).
+dcs:property_of_airdrome(config:Property, Airdrome) :-
+    nonvar(Property),
+    of_config(Property, Airdrome).
 
-of_airdrome(Property, Terrain, AirdromeID) :-
+of_config(terrain(Terrain, id(AirdromeID)), Airdrome) :-
+    !,
+    of_config(en(Airdrome), Terrain, AirdromeID).
+of_config(Property, Airdrome) :-
+    of_config(en(Airdrome), Terrain, AirdromeID),
+    of_config(Property, Terrain, AirdromeID).
+
+:- table of_config/3 as shared.
+
+of_config(Property, Terrain, AirdromeID) :-
     terrain_property(Terrain, config:airdrome(Config)),
     Config =.. [Terrain, AirdromeID, Property].
 
