@@ -15,11 +15,11 @@
 %
 %       * defined
 %
-%       * terrain(Terrain:atom, id(ID:number))
+%       * terrain(Terrain:atom, id(AirdromeID:number))
 %
-%       Terrain and airdrome ID pair of  Airdrome. The airdrome property
-%       interface does *not* project  the  terrain/1   or  id/1  of  the
-%       underlying terrain-identifier identity by   design  because id/1
+%       Terrain and AirdromeID pair of   Airdrome. The airdrome property
+%       interface does *not* project the =terrain/1=   or  =id/1= of the
+%       underlying terrain-identifier identity by  design because =id/1=
 %       clashes with the _id_  of  the   airdrome  corresponding  to the
 %       string identifier, not the numeric one.
 %
@@ -30,7 +30,11 @@
 %       the identifier. Used  by  stand_property/2   to  find  a stand's
 %       terrain.
 %
-%       * name(en(Name:string))
+%   ---+++ config:Property
+%
+%   Property of Airdrome for terrain configuration.
+%
+%       * names(en(Name:string))
 %
 %       Unique Name in English for aerodrome terrain-identifier. Unifies
 %       non-deterministically by unique distinct   aerodrome-name pairs.
@@ -39,7 +43,7 @@
 %
 %   @arg Name string name of aerodrome.
 %   @arg Terrain atom of aerodrome's terrain.
-%   @arg ID number of aerodrome.
+%   @arg AirdromeID number of aerodrome.
 
 airdrome_property(Airdrome, Property) :-
     dcs:property_of_airdrome(defined, Airdrome),
