@@ -2,8 +2,10 @@
 
 :- use_module(plugins).
 
-test(plugin_property, [true(ID=="CA"), nondet]) :-
-    plugin_property(option(ca), id(ID)).
+test(plugin_property, [true(ID=="CA")]) :-
+    plugin_property(option:ca, id(ID)).
+test(plugin_property, [true(Option==ca)]) :-
+    plugin_property(option:Option, id("CA")).
 
 %!  test is semidet.
 %
@@ -16,7 +18,7 @@ test(plugin_property, [true(NumberOfNames==59)]) :-
         distinct(
             Name,
             plugin_property(
-                plugin(_),
+                plugin:_,
                 weapon(supply(shells(name(Name)))))), Names),
     length(Names, NumberOfNames).
 

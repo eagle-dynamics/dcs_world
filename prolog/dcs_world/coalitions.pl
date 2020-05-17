@@ -5,7 +5,7 @@
  * @author R3DL1N3 <r0y@digitalcombatsimulator.world>
  */
 
-:- multifile dcs:apply_to_coalition/2.
+:- multifile dcs:apply_to_coalition/2, dcs:property_of_coalition/2.
 
 %!  coalition_apply(?Coalition:atom, ?Apply) is nondet.
 %
@@ -13,8 +13,6 @@
 
 coalition_apply(Coalition, Apply) :-
     dcs:apply_to_coalition(Apply, Coalition).
-
-:- multifile dcs:property_of_coalition/2.
 
 %!  coalition_property(?Coalition:atom, ?Property) is nondet.
 %
