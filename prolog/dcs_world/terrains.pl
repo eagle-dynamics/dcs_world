@@ -47,6 +47,7 @@ dcs:property_of_terrain(id(ID), Terrain) :-
     dcs:property_of_terrain(plugin:id(ID), Terrain).
 
 dcs:property_of_terrain(plugin:Property, Terrain) :-
+    nonvar(Property),
     plugin_property(plugin:Terrain, type("terrain")),
     plugin_property(plugin:Terrain, Property).
 
