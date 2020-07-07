@@ -2,10 +2,12 @@
 
 :- use_module(terrains).
 
-test(terrain_property, [set(A==[caucasus, nevada, normandy, persian_gulf])]) :-
+test(terrain_property, [set(A==[ caucasus,
+                                 nevada,
+                                 normandy,
+                                 persian_gulf,
+                                 the_channel
+                               ])]) :-
     terrain_property(A, defined).
-
-test(terrain_property, [true(A-B==caucasus-12)]) :-
-    terrain_property(A, config:airdrome(caucasus(B, code("URKA")))).
 
 :- end_tests(dcs_world_terrains).
