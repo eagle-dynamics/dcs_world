@@ -1,6 +1,5 @@
 :- module(dcs_world_airdromes, [airdrome_property/2]).
 
-:- use_module(terrains).
 :- use_module(points).
 
 /** <module> Aerodromes throughout terrains
@@ -8,6 +7,14 @@
  */
 
 :- multifile dcs:property_of_airdrome/2.
+
+:- include(airdromes/property_of_airdrome).
+
+reference_of_airdrome(point(Point), Airdrome) :-
+    airdrome_property(Airdrome, terrain(Terrain)),
+    once(airdrome_property(Airdrome, reference_point(x(X)))),
+    once(airdrome_property(Airdrome, reference_point(y(Y)))),
+    point_property(Point, terrain(Terrain, point(X, Y))).
 
 %!  airdrome_property(?Airdrome:atom, ?Property) is nondet.
 %
@@ -47,42 +54,17 @@
 
 airdrome_property(Airdrome, Property) :-
     dcs:property_of_airdrome(defined, Airdrome),
-    dcs:property_of_airdrome(Property, Airdrome).
+    (   property_of_airdrome(Property, Airdrome)
+    *-> true
+    ;   dcs:property_of_airdrome(Property, Airdrome)
+    ).
 
 dcs:property_of_airdrome(defined, Airdrome) :-
-    dcs:property_of_airdrome(config:defined, Airdrome).
-
+    property_of_airdrome(en(_), Airdrome).
 dcs:property_of_airdrome(terrain(Terrain, id(AirdromeID)), Airdrome) :-
-    dcs:property_of_airdrome(config:terrain(Terrain, id(AirdromeID)), Airdrome).
-
+    dcs:property_of_airdrome(terrain(Terrain), Airdrome),
+    property_of_airdrome(airdrome_id(AirdromeID), Airdrome).
 dcs:property_of_airdrome(terrain(Terrain), Airdrome) :-
-    dcs:property_of_airdrome(terrain(Terrain, id(_)), Airdrome).
-
-dcs:property_of_airdrome(code(Code), Airdrome) :-
-    dcs:property_of_airdrome(config:code(Code), Airdrome).
-
-dcs:property_of_airdrome(config:Property, Airdrome) :-
-    nonvar(Property),
-    of_config(Property, Airdrome).
-
-of_config(terrain(Terrain, id(AirdromeID)), Airdrome) :-
-    !,
-    of_config(en(Airdrome), Terrain, AirdromeID).
-of_config(Property, Airdrome) :-
-    of_config(en(Airdrome), Terrain, AirdromeID),
-    of_config(Property, Terrain, AirdromeID).
-
-:- table of_config/3 as shared.
-
-of_config(Property, Terrain, AirdromeID) :-
-    terrain_property(Terrain, config:airdrome(Config)),
-    Config =.. [Terrain, AirdromeID, Property].
-
+    property_of_airdrome(theatre_of_war(Terrain), Airdrome).
 dcs:property_of_airdrome(reference(Reference), Airdrome) :-
     reference_of_airdrome(Reference, Airdrome).
-
-reference_of_airdrome(point(Point), Airdrome) :-
-    airdrome_property(Airdrome, terrain(Terrain, id(_))),
-    once(airdrome_property(Airdrome, reference_point(x(X)))),
-    once(airdrome_property(Airdrome, reference_point(y(Y)))),
-    point_property(Point, terrain(Terrain, point(X, Y))).
