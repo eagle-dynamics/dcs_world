@@ -29,7 +29,8 @@ test(terrain_config_property,
                          v(persian_gulf, sw, [-460, 0, -900]),
                          v(persian_gulf, ne, [800, 0, 800]),
                          v(the_channel, sw, [-130, 0, -115]),
-                         v(the_channel, ne, [75, 0, 130])])
+                         v(the_channel, ne, [75, 0, 130])
+                       ])
      ]) :- terrain_property(A, config:bound(B, C)).
 
 :- end_tests(dcs_world_terrains).
