@@ -24,15 +24,15 @@
 
 :- multifile dcs:property_of_theatre_of_war/2.
 
-theatre_of_war_utc_offset_hours(caucasus, 4).
-theatre_of_war_utc_offset_hours(nevada, -8).
-theatre_of_war_utc_offset_hours(normandy, 0).
-theatre_of_war_utc_offset_hours(persian_gulf, 4).
-theatre_of_war_utc_offset_hours(the_channel, 0).
+theatre_of_war_utc_offset(caucasus, 4).
+theatre_of_war_utc_offset(nevada, -8).
+theatre_of_war_utc_offset(normandy, 0).
+theatre_of_war_utc_offset(persian_gulf, 4).
+theatre_of_war_utc_offset(the_channel, 0).
 
 utc_of_theatre_of_war(offset(Offset), TheatreOfWar) :-
-    theatre_of_war_utc_offset_hours(TheatreOfWar, OffsetHours),
-    Offset is 3600 * OffsetHours.
+    theatre_of_war_utc_offset(TheatreOfWar, Offset0),
+    Offset is 3600 * Offset0.
 
 %!  theatre_of_war_property(?TheatreOfWar:atom, ?Property) is nondet.
 %
