@@ -4,6 +4,7 @@
 
 :- multifile dcs:property_of_action/2.
 
+:- include(me_action_db/action_id).
 :- include(me_action_db/actions_data).
 
 action_property(Action, Property) :-
@@ -17,3 +18,6 @@ dcs:property_of_action(defined, Action) :-
 dcs:property_of_action(action_type(ActionType), Action) :-
     actions_data(type(ID), Action),
     action_type_property(ActionType, id(ID)).
+dcs:property_of_action(action(Action0), Action) :-
+    actions_data(id(ID), Action),
+    action_id(id(ID), Action0).
