@@ -1,12 +1,10 @@
-:- [library(dcs_world/ed)].
+:- [library(dcs_world/beta)].
 
 :- initialization with_output_to_pl(actions, all).
 
-all :-
-    forall(each(Property, RouteAction),
-           print_term(me_route_action(Property, RouteAction))).
+all :- forall(each(Term), print_term(Term)).
 
-each(Property, RouteAction) :-
+each(me_route_action(Property, RouteAction)) :-
     gui(require("me_route"):actions, Dict),
     dict_pairs(Dict, _, Pairs),
     member(Key-Value, Pairs),
