@@ -4,7 +4,7 @@
 
 all :- forall(each(Term), print_term(Term)).
 
-each(me_route_action(Property, RouteAction)) :-
+each(actions(Property, RouteAction)) :-
     gui(require("me_route"):actions, Dict),
     dict_pairs(Dict, _, Pairs),
     member(Key-Value, Pairs),

@@ -1,5 +1,7 @@
 :- module(dcs_world_points, [point_property/2]).
 
+:- use_module(library(linear/algebra)).
+
 /** <module> Somewhere within a theatre of war
  *
  * Points are locations within a theatre of   war.  In other words, they
@@ -67,3 +69,25 @@ dcs:property_of_point(easting(Easting), Point) :-
 
 dcs:property_of_point(altitude(Altitude), Point) :-
     dcs:property_of_point(point(_, Altitude, _), Point).
+
+dcs:property_of_point(vector([X, Y]), Point) :-
+    dcs:property_of_point(point(X, Y), Point).
+dcs:property_of_point(vector([X, Y, Z]), Point) :-
+    dcs:property_of_point(point(X, Y, Z), Point).
+
+dcs:property_of_point(offset(Point0, Point_), Point) :-
+    dcs:property_of_point(terrain(Terrain), Point),
+    point_property(Point0, terrain(Terrain)),
+    dcs:property_of_point(vector(Vector), Point),
+    dcs:property_of_point(vector(Vector0), Point0),
+    once(offset(Vector0, Vector, Vector_)),
+    dcs:property_of_point(vector(Vector_), Point_),
+    !.
+dcs:property_of_point(distance(Point0, Distance), Point) :-
+    dcs:property_of_point(offset(Point0, Point_), Point),
+    dcs:property_of_point(vector(Vector), Point_),
+    once(vector_distance(Vector, Distance)).
+
+offset(Origin, Vector0, Vector) :-
+    vector_scale(-1, Origin, Origin_),
+    vector_translate(Vector0, Origin_, Vector).
