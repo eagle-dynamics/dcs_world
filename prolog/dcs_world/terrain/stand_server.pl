@@ -1,4 +1,4 @@
-:- [beta].
+:- [library(dcs_world/scripts/server)].
 
 :- initialization with_output_to_pl(stand, all).
 

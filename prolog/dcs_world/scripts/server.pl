@@ -1,4 +1,4 @@
-:- [library(dcs_world/beta)].
+:- [library(dcs_world/scripts/beta)].
 
 :- ensure_loaded(library(ed/apps)).
 :- ensure_loaded(library(ed/logs)).
