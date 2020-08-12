@@ -6,7 +6,7 @@
 
 :- multifile dcs:property_of_point/2.
 
-:- include(terrains/config_of_terrain).
+:- include(terrain/config).
 
 plugin_of_terrain(Property, Terrain) :-
     plugin_property(Terrain, type("terrain")),
@@ -61,7 +61,7 @@ dcs:property_of_terrain(plugin:Property, Terrain) :-
     plugin_of_terrain(Property, Terrain).
 dcs:property_of_terrain(config:Property, Terrain) :-
     nonvar(Property),
-    config_of_terrain(Property, Terrain).
+    config(Property, Terrain).
 
 dcs:property_of_point(terrain(Terrain, Property), Point) :-
     terrain_property(Terrain, defined),

@@ -4,6 +4,7 @@
 
 /** <module> Aerodromes throughout terrains
  *
+ * @author R3DL1N3 <r0y@digitalcombatsimulator.world>
  */
 
 :- multifile dcs:property_of_airdrome/2.
