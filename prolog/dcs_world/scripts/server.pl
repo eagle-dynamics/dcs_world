@@ -2,7 +2,6 @@
 
 :- ensure_loaded(library(ed/apps)).
 :- ensure_loaded(library(ed/logs)).
-:- ensure_loaded(library(ed/windows)).
 :- ensure_loaded(library(ed/dispatchers)).
 
 :- ensure_loaded(library(ed/terrains)).

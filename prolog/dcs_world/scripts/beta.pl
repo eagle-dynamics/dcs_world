@@ -5,6 +5,7 @@
 :- use_module(library(ed/atoms)).
 :- use_module(library(ed/dicts)).
 
+:- ensure_loaded(library(ed/windows)).
 :- ensure_loaded(library(ed/hooks)).
 
 :- public gui/2.
