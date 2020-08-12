@@ -1,4 +1,4 @@
-:- [library(dcs_world/beta)].
+:- [library(dcs_world/scripts/beta)].
 
 :- initialization with_output_to_pl(action_type_data, all).
 
