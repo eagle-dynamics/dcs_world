@@ -11,8 +11,7 @@ each(actions_data(Property, TaskID)) :-
     member(ID-Dict, Pairs),
     restyle_identifier(Dict.displayName, TaskID),
     (   Property =.. [id, ID]
-    ;   get_dict(task, Dict, Task),
-        Property =.. [payload, Task]
+    ;   get_dict(task, Dict, Task), Property = task:payload(Task)
     ;   dict_compound(Dict, Property)
     ),
     (   Property =.. [_, function]
