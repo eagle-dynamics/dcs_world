@@ -4,6 +4,16 @@
 
 :- include(library(dcs/db/units/skills)).
 
+%!  skill_property(?Skill, ?Property) is nondet.
+%
+%   Names and world  identifiers  for  skills.   Property  of  Skill  as
+%   follows.
+%
+%       * defined
+%
+%       Succeeds if Skill has  a   world_id(WorldID)  property.  Unifies
+%       uniquely for Skill.
+
 skill_property(Skill, Property) :- dcs:property_of_skill(Property, Skill).
 
 dcs:property_of_skill(unit:Property, Skill) :-
