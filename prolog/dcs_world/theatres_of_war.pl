@@ -24,6 +24,16 @@
 
 :- multifile dcs:property_of_theatre_of_war/2.
 
+utc_offset(caucasus, 4).
+utc_offset(nevada, -8).
+utc_offset(normandy, 0).
+utc_offset(persian_gulf, 4).
+utc_offset(the_channel, 0).
+
+utc_of_theatre_of_war(offset(Offset), TheatreOfWar) :-
+    utc_offset(TheatreOfWar, Offset0),
+    Offset is 3600 * Offset0.
+
 %!  theatre_of_war_property(?TheatreOfWar:atom, ?Property) is nondet.
 %
 %   Property of TheatreOfWar.
@@ -34,6 +44,9 @@ theatre_of_war_property(TheatreOfWar, Property) :-
 
 dcs:property_of_theatre_of_war(Property, TheatreOfWar) :-
     of_theatre_of_war(Property, TheatreOfWar).
+dcs:property_of_theatre_of_war(utc:Property, TheatreOfWar) :-
+    nonvar(Property),
+    utc_of_theatre_of_war(Property, TheatreOfWar).
 
 of_theatre_of_war(defined, TheatreOfWar) :- of_theatre_of_war(name(_), TheatreOfWar).
 
