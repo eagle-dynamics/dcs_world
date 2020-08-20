@@ -47,23 +47,17 @@ airdrome(id("Anapa"),anapa_vityazevo).
 airdrome(names(en("Anapa-Vityazevo")),anapa_vityazevo).
 airdrome(projectors(runway_id(0,1)),anapa_vityazevo).
 airdrome(projectors(runway_side(0,"04")),anapa_vityazevo).
-airdrome(projectors(scene_objects(0,"externalId:220137")),
-	 anapa_vityazevo).
-airdrome(projectors(scene_objects(0,"externalId:220138")),
-	 anapa_vityazevo).
+airdrome(projectors(scene_objects(0,"externalId:220137")),anapa_vityazevo).
+airdrome(projectors(scene_objects(0,"externalId:220138")),anapa_vityazevo).
 airdrome(projectors(runway_id(1,1)),anapa_vityazevo).
 airdrome(projectors(runway_side(1,"22")),anapa_vityazevo).
-airdrome(projectors(scene_objects(1,"externalId:220139")),
-	 anapa_vityazevo).
-airdrome(projectors(scene_objects(1,"externalId:220140")),
-	 anapa_vityazevo).
+airdrome(projectors(scene_objects(1,"externalId:220139")),anapa_vityazevo).
+airdrome(projectors(scene_objects(1,"externalId:220140")),anapa_vityazevo).
 airdrome(radio("airfield12_0"),anapa_vityazevo).
 airdrome(reference_point(x(-5412.409668)),anapa_vityazevo).
 airdrome(reference_point(y(243128.820313)),anapa_vityazevo).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Anapa.rn4"),
-	 anapa_vityazevo).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Anapa.rn5"),
-	 anapa_vityazevo).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Anapa.rn4"),anapa_vityazevo).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Anapa.rn5"),anapa_vityazevo).
 airdrome(runway_name('0'("22")),anapa_vityazevo).
 airdrome(runway_name('1'("04")),anapa_vityazevo).
 airdrome(runways(end(0,"04")),anapa_vityazevo).
@@ -247,23 +241,17 @@ airdrome(id("Krasnodar"),krasnodar_center).
 airdrome(names(en("Krasnodar-Center")),krasnodar_center).
 airdrome(projectors(runway_id(0,1)),krasnodar_center).
 airdrome(projectors(runway_side(0,"09")),krasnodar_center).
-airdrome(projectors(scene_objects(0,"externalId:230121")),
-	 krasnodar_center).
-airdrome(projectors(scene_objects(0,"externalId:230122")),
-	 krasnodar_center).
+airdrome(projectors(scene_objects(0,"externalId:230121")),krasnodar_center).
+airdrome(projectors(scene_objects(0,"externalId:230122")),krasnodar_center).
 airdrome(projectors(runway_id(1,1)),krasnodar_center).
 airdrome(projectors(runway_side(1,"27")),krasnodar_center).
-airdrome(projectors(scene_objects(1,"externalId:230123")),
-	 krasnodar_center).
-airdrome(projectors(scene_objects(1,"externalId:230124")),
-	 krasnodar_center).
+airdrome(projectors(scene_objects(1,"externalId:230123")),krasnodar_center).
+airdrome(projectors(scene_objects(1,"externalId:230124")),krasnodar_center).
 airdrome(radio("airfield13_0"),krasnodar_center).
 airdrome(reference_point(x(11685.205078)),krasnodar_center).
 airdrome(reference_point(y(367933.515625)),krasnodar_center).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Krasnodar.rn4"),
-	 krasnodar_center).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Krasnodar.rn5"),
-	 krasnodar_center).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Krasnodar.rn4"),krasnodar_center).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Krasnodar.rn5"),krasnodar_center).
 airdrome(runway_name('0'("09")),krasnodar_center).
 airdrome(runway_name('1'("27")),krasnodar_center).
 airdrome(runways(end(0,"27")),krasnodar_center).
@@ -416,10 +404,8 @@ airdrome(projectors(scene_objects(1,"externalId:240112")),novorossiysk).
 airdrome(radio("airfield14_0"),novorossiysk).
 airdrome(reference_point(x(-40917.535156)),novorossiysk).
 airdrome(reference_point(y(279256.0625)),novorossiysk).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Novorossiysk.rn4"),
-	 novorossiysk).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Novorossiysk.rn5"),
-	 novorossiysk).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Novorossiysk.rn4"),novorossiysk).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Novorossiysk.rn5"),novorossiysk).
 airdrome(runway_name('0'("22")),novorossiysk).
 airdrome(runway_name('1'("04")),novorossiysk).
 airdrome(runways(end(0,"04")),novorossiysk).
@@ -593,10 +579,8 @@ airdrome(projectors(scene_objects(1,"externalId:250105")),krymsk).
 airdrome(radio("airfield15_0"),krymsk).
 airdrome(reference_point(x(-6576.524658)),krymsk).
 airdrome(reference_point(y(294388.125)),krymsk).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Krymsk.rn4"),
-	 krymsk).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Krymsk.rn5"),
-	 krymsk).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Krymsk.rn4"),krymsk).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Krymsk.rn5"),krymsk).
 airdrome(runway_name('0'("04")),krymsk).
 airdrome(runway_name('1'("22")),krymsk).
 airdrome(runways(end(0,"22")),krymsk).
@@ -747,23 +731,17 @@ airdrome(id("Maykop"),maykop_khanskaya).
 airdrome(names(en("Maykop-Khanskaya")),maykop_khanskaya).
 airdrome(projectors(runway_id(0,1)),maykop_khanskaya).
 airdrome(projectors(runway_side(0,"04")),maykop_khanskaya).
-airdrome(projectors(scene_objects(0,"externalId:260077")),
-	 maykop_khanskaya).
-airdrome(projectors(scene_objects(0,"externalId:260078")),
-	 maykop_khanskaya).
+airdrome(projectors(scene_objects(0,"externalId:260077")),maykop_khanskaya).
+airdrome(projectors(scene_objects(0,"externalId:260078")),maykop_khanskaya).
 airdrome(projectors(runway_id(1,1)),maykop_khanskaya).
 airdrome(projectors(runway_side(1,"22")),maykop_khanskaya).
-airdrome(projectors(scene_objects(1,"externalId:260079")),
-	 maykop_khanskaya).
-airdrome(projectors(scene_objects(1,"externalId:260080")),
-	 maykop_khanskaya).
+airdrome(projectors(scene_objects(1,"externalId:260079")),maykop_khanskaya).
+airdrome(projectors(scene_objects(1,"externalId:260080")),maykop_khanskaya).
 airdrome(radio("airfield16_0"),maykop_khanskaya).
 airdrome(reference_point(x(-26437.275391)),maykop_khanskaya).
 airdrome(reference_point(y(458048.84375)),maykop_khanskaya).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Maykop.rn4"),
-	 maykop_khanskaya).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Maykop.rn5"),
-	 maykop_khanskaya).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Maykop.rn4"),maykop_khanskaya).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Maykop.rn5"),maykop_khanskaya).
 airdrome(runway_name('0'("04")),maykop_khanskaya).
 airdrome(runway_name('1'("22")),maykop_khanskaya).
 airdrome(runways(end(0,"22")),maykop_khanskaya).
@@ -873,10 +851,8 @@ airdrome(projectors(scene_objects(1,"externalId:270093")),gelendzhik).
 airdrome(radio("airfield17_0"),gelendzhik).
 airdrome(reference_point(x(-50378.611328)),gelendzhik).
 airdrome(reference_point(y(298406.15625)),gelendzhik).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Gelendzhik.rn4"),
-	 gelendzhik).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Gelendzhik.rn5"),
-	 gelendzhik).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Gelendzhik.rn4"),gelendzhik).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Gelendzhik.rn5"),gelendzhik).
 airdrome(runway_name('0'("01")),gelendzhik).
 airdrome(runway_name('1'("19")),gelendzhik).
 airdrome(runways(end(0,"19")),gelendzhik).
@@ -1011,10 +987,8 @@ airdrome(projectors(scene_objects(1,"externalId:280106")),sochi_adler).
 airdrome(radio("airfield18_0"),sochi_adler).
 airdrome(reference_point(x(-164496.46875)),sochi_adler).
 airdrome(reference_point(y(462218.921875)),sochi_adler).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Sochi.rn4"),
-	 sochi_adler).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Sochi.rn5"),
-	 sochi_adler).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Sochi.rn4"),sochi_adler).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Sochi.rn5"),sochi_adler).
 airdrome(runway_name('0'("06")),sochi_adler).
 airdrome(runway_name('1'("24")),sochi_adler).
 airdrome(runways(end(0,"24")),sochi_adler).
@@ -1131,12 +1105,10 @@ airdrome(beacons(beacon_id(4,"airfield19_4")),krasnodar_pashkovsky).
 airdrome(civilian(true),krasnodar_pashkovsky).
 airdrome(class("1"),krasnodar_pashkovsky).
 airdrome(code("URKK"),krasnodar_pashkovsky).
-airdrome(default_camera_position(bearing(115.93843)),
-	 krasnodar_pashkovsky).
+airdrome(default_camera_position(bearing(115.93843)),krasnodar_pashkovsky).
 airdrome(default_camera_position(pnt(7805.66748)),krasnodar_pashkovsky).
 airdrome(default_camera_position(pnt(134)),krasnodar_pashkovsky).
-airdrome(default_camera_position(pnt(389024.71875)),
-	 krasnodar_pashkovsky).
+airdrome(default_camera_position(pnt(389024.71875)),krasnodar_pashkovsky).
 airdrome(display_name("Krasnodar-Pashkovsky"),krasnodar_pashkovsky).
 airdrome(fueldepots("externalId:290001"),krasnodar_pashkovsky).
 airdrome(fueldepots("externalId:290002"),krasnodar_pashkovsky).
@@ -1159,23 +1131,17 @@ airdrome(id("Krasnodar_P"),krasnodar_pashkovsky).
 airdrome(names(en("Krasnodar-Pashkovsky")),krasnodar_pashkovsky).
 airdrome(projectors(runway_id(0,1)),krasnodar_pashkovsky).
 airdrome(projectors(runway_side(0,"05R")),krasnodar_pashkovsky).
-airdrome(projectors(scene_objects(0,"externalId:290076")),
-	 krasnodar_pashkovsky).
-airdrome(projectors(scene_objects(0,"externalId:290077")),
-	 krasnodar_pashkovsky).
+airdrome(projectors(scene_objects(0,"externalId:290076")),krasnodar_pashkovsky).
+airdrome(projectors(scene_objects(0,"externalId:290077")),krasnodar_pashkovsky).
 airdrome(projectors(runway_id(1,1)),krasnodar_pashkovsky).
 airdrome(projectors(runway_side(1,"23L")),krasnodar_pashkovsky).
-airdrome(projectors(scene_objects(1,"externalId:290078")),
-	 krasnodar_pashkovsky).
-airdrome(projectors(scene_objects(1,"externalId:290079")),
-	 krasnodar_pashkovsky).
+airdrome(projectors(scene_objects(1,"externalId:290078")),krasnodar_pashkovsky).
+airdrome(projectors(scene_objects(1,"externalId:290079")),krasnodar_pashkovsky).
 airdrome(radio("airfield19_0"),krasnodar_pashkovsky).
 airdrome(reference_point(x(7717.637452)),krasnodar_pashkovsky).
 airdrome(reference_point(y(387878.803876)),krasnodar_pashkovsky).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Krasnodar_P.rn4"),
-	 krasnodar_pashkovsky).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Krasnodar_P.rn5"),
-	 krasnodar_pashkovsky).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Krasnodar_P.rn4"),krasnodar_pashkovsky).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Krasnodar_P.rn5"),krasnodar_pashkovsky).
 airdrome(runway_name('0'("23L")),krasnodar_pashkovsky).
 airdrome(runway_name('1'("05R")),krasnodar_pashkovsky).
 airdrome(runways(end(0,"05R")),krasnodar_pashkovsky).
@@ -1257,8 +1223,7 @@ airdrome(civilian(true),sukhumi_babushara).
 airdrome(class("1"),sukhumi_babushara).
 airdrome(code("UGSS"),sukhumi_babushara).
 airdrome(default_camera_position(bearing(63.172115)),sukhumi_babushara).
-airdrome(default_camera_position(pnt(-221973.076538)),
-	 sukhumi_babushara).
+airdrome(default_camera_position(pnt(-221973.076538)),sukhumi_babushara).
 airdrome(default_camera_position(pnt(707.003174)),sukhumi_babushara).
 airdrome(default_camera_position(pnt(567160.07666)),sukhumi_babushara).
 airdrome(display_name("Sukhumi-Babushara"),sukhumi_babushara).
@@ -1267,23 +1232,17 @@ airdrome(id("Sukhumi"),sukhumi_babushara).
 airdrome(names(en("Sukhumi-Babushara")),sukhumi_babushara).
 airdrome(projectors(runway_id(0,1)),sukhumi_babushara).
 airdrome(projectors(runway_side(0,"12")),sukhumi_babushara).
-airdrome(projectors(scene_objects(0,"externalId:300004")),
-	 sukhumi_babushara).
-airdrome(projectors(scene_objects(0,"externalId:300005")),
-	 sukhumi_babushara).
+airdrome(projectors(scene_objects(0,"externalId:300004")),sukhumi_babushara).
+airdrome(projectors(scene_objects(0,"externalId:300005")),sukhumi_babushara).
 airdrome(projectors(runway_id(1,1)),sukhumi_babushara).
 airdrome(projectors(runway_side(1,"30")),sukhumi_babushara).
-airdrome(projectors(scene_objects(1,"externalId:300006")),
-	 sukhumi_babushara).
-airdrome(projectors(scene_objects(1,"externalId:300007")),
-	 sukhumi_babushara).
+airdrome(projectors(scene_objects(1,"externalId:300006")),sukhumi_babushara).
+airdrome(projectors(scene_objects(1,"externalId:300007")),sukhumi_babushara).
 airdrome(radio("airfield20_0"),sukhumi_babushara).
 airdrome(reference_point(x(-220592.328125)),sukhumi_babushara).
 airdrome(reference_point(y(564391.96875)),sukhumi_babushara).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Sukhumi.rn4"),
-	 sukhumi_babushara).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Sukhumi.rn5"),
-	 sukhumi_babushara).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Sukhumi.rn4"),sukhumi_babushara).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Sukhumi.rn5"),sukhumi_babushara).
 airdrome(runway_name('0'("30")),sukhumi_babushara).
 airdrome(runway_name('1'("12")),sukhumi_babushara).
 airdrome(runways(end(0,"12")),sukhumi_babushara).
@@ -1339,10 +1298,8 @@ airdrome(projectors(scene_objects(1,"externalId:310104")),gudauta).
 airdrome(radio("airfield21_0"),gudauta).
 airdrome(reference_point(x(-196710.085938)),gudauta).
 airdrome(reference_point(y(516451.6875)),gudauta).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Gudauta.rn4"),
-	 gudauta).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Gudauta.rn5"),
-	 gudauta).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Gudauta.rn4"),gudauta).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Gudauta.rn5"),gudauta).
 airdrome(runway_name('0'("15")),gudauta).
 airdrome(runway_name('1'("33")),gudauta).
 airdrome(runways(end(0,"33")),gudauta).
@@ -1467,10 +1424,8 @@ airdrome(projectors(scene_objects(0,"externalId:320007")),batumi).
 airdrome(radio("airfield22_0"),batumi).
 airdrome(reference_point(x(-355810.6875)),batumi).
 airdrome(reference_point(y(617386.1875)),batumi).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Batumi.rn4"),
-	 batumi).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Batumi.rn5"),
-	 batumi).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Batumi.rn4"),batumi).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Batumi.rn5"),batumi).
 airdrome(runway_name('0'("31")),batumi).
 airdrome(runway_name('1'("13")),batumi).
 airdrome(runways(end(0,"13")),batumi).
@@ -1540,10 +1495,8 @@ airdrome(projectors(scene_objects(1,"externalId:330132")),senaki_kolkhi).
 airdrome(radio("airfield23_0"),senaki_kolkhi).
 airdrome(reference_point(x(-281782.46875)),senaki_kolkhi).
 airdrome(reference_point(y(647279.46875)),senaki_kolkhi).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Senaki.rn4"),
-	 senaki_kolkhi).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Senaki.rn5"),
-	 senaki_kolkhi).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Senaki.rn4"),senaki_kolkhi).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Senaki.rn5"),senaki_kolkhi).
 airdrome(runway_name('0'("27")),senaki_kolkhi).
 airdrome(runway_name('1'("09")),senaki_kolkhi).
 airdrome(runways(end(0,"09")),senaki_kolkhi).
@@ -1715,10 +1668,8 @@ airdrome(projectors(scene_objects(1,"externalId:340090")),kobuleti).
 airdrome(radio("airfield24_0"),kobuleti).
 airdrome(reference_point(x(-317962.296875)),kobuleti).
 airdrome(reference_point(y(635632.96875)),kobuleti).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/KOBULETI.rn4"),
-	 kobuleti).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/KOBULETI.rn5"),
-	 kobuleti).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/KOBULETI.rn4"),kobuleti).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/KOBULETI.rn5"),kobuleti).
 airdrome(runway_name('0'("25")),kobuleti).
 airdrome(runway_name('1'("07")),kobuleti).
 airdrome(runways(end(0,"07")),kobuleti).
@@ -1854,10 +1805,8 @@ airdrome(projectors(scene_objects(1,"externalId:350113")),kutaisi).
 airdrome(radio("airfield25_0"),kutaisi).
 airdrome(reference_point(x(-284887.375)),kutaisi).
 airdrome(reference_point(y(683858.8125)),kutaisi).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/KUTAISI.rn4"),
-	 kutaisi).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/KUTAISI.rn5"),
-	 kutaisi).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/KUTAISI.rn4"),kutaisi).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/KUTAISI.rn5"),kutaisi).
 airdrome(runway_name('0'("26")),kutaisi).
 airdrome(runway_name('1'("08")),kutaisi).
 airdrome(runways(end(0,"08")),kutaisi).
@@ -2015,23 +1964,17 @@ airdrome(id("MinVody"),mineralnye_vody).
 airdrome(names(en("Mineralnye Vody")),mineralnye_vody).
 airdrome(projectors(runway_id(0,1)),mineralnye_vody).
 airdrome(projectors(runway_side(0,"12")),mineralnye_vody).
-airdrome(projectors(scene_objects(0,"externalId:360069")),
-	 mineralnye_vody).
-airdrome(projectors(scene_objects(0,"externalId:360070")),
-	 mineralnye_vody).
+airdrome(projectors(scene_objects(0,"externalId:360069")),mineralnye_vody).
+airdrome(projectors(scene_objects(0,"externalId:360070")),mineralnye_vody).
 airdrome(projectors(runway_id(1,1)),mineralnye_vody).
 airdrome(projectors(runway_side(1,"30")),mineralnye_vody).
-airdrome(projectors(scene_objects(1,"externalId:360071")),
-	 mineralnye_vody).
-airdrome(projectors(scene_objects(1,"externalId:360072")),
-	 mineralnye_vody).
+airdrome(projectors(scene_objects(1,"externalId:360071")),mineralnye_vody).
+airdrome(projectors(scene_objects(1,"externalId:360072")),mineralnye_vody).
 airdrome(radio("airfield26_0"),mineralnye_vody).
 airdrome(reference_point(x(-51259.983985)),mineralnye_vody).
 airdrome(reference_point(y(705734.026899)),mineralnye_vody).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/MinVody.rn4"),
-	 mineralnye_vody).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/MinVody.rn5"),
-	 mineralnye_vody).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/MinVody.rn4"),mineralnye_vody).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/MinVody.rn5"),mineralnye_vody).
 airdrome(runway_name('0'("30")),mineralnye_vody).
 airdrome(runway_name('1'("12")),mineralnye_vody).
 airdrome(runways(end(0,"12")),mineralnye_vody).
@@ -2156,10 +2099,8 @@ airdrome(projectors(scene_objects(1,"externalId:370080")),nalchik).
 airdrome(radio("airfield27_0"),nalchik).
 airdrome(reference_point(x(-124912.453125)),nalchik).
 airdrome(reference_point(y(760449.59375)),nalchik).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Nalchick.rn4"),
-	 nalchik).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Nalchick.rn5"),
-	 nalchik).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Nalchick.rn4"),nalchik).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Nalchick.rn5"),nalchik).
 airdrome(runway_name('0'("06")),nalchik).
 airdrome(runway_name('1'("24")),nalchik).
 airdrome(runways(end(0,"24")),nalchik).
@@ -2302,10 +2243,8 @@ airdrome(projectors(scene_objects(1,"externalId:380026")),mozdok).
 airdrome(radio("airfield28_0"),mozdok).
 airdrome(reference_point(x(-83450.417969)),mozdok).
 airdrome(reference_point(y(834461.78125)),mozdok).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Mozdok.rn4"),
-	 mozdok).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Mozdok.rn5"),
-	 mozdok).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Mozdok.rn4"),mozdok).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Mozdok.rn5"),mozdok).
 airdrome(runway_name('0'("26")),mozdok).
 airdrome(runway_name('1'("08")),mozdok).
 airdrome(runways(end(0,"08")),mozdok).
@@ -2374,23 +2313,17 @@ airdrome(id("Lochini"),tbilisi_lochini).
 airdrome(names(en("Tbilisi-Lochini")),tbilisi_lochini).
 airdrome(projectors(runway_id(0,1)),tbilisi_lochini).
 airdrome(projectors(runway_side(0,"13R")),tbilisi_lochini).
-airdrome(projectors(scene_objects(0,"externalId:390011")),
-	 tbilisi_lochini).
-airdrome(projectors(scene_objects(0,"externalId:390012")),
-	 tbilisi_lochini).
+airdrome(projectors(scene_objects(0,"externalId:390011")),tbilisi_lochini).
+airdrome(projectors(scene_objects(0,"externalId:390012")),tbilisi_lochini).
 airdrome(projectors(runway_id(1,1)),tbilisi_lochini).
 airdrome(projectors(runway_side(1,"31L")),tbilisi_lochini).
-airdrome(projectors(scene_objects(1,"externalId:390013")),
-	 tbilisi_lochini).
-airdrome(projectors(scene_objects(1,"externalId:390014")),
-	 tbilisi_lochini).
+airdrome(projectors(scene_objects(1,"externalId:390013")),tbilisi_lochini).
+airdrome(projectors(scene_objects(1,"externalId:390014")),tbilisi_lochini).
 airdrome(radio("airfield29_0"),tbilisi_lochini).
 airdrome(reference_point(x(-315671.09375)),tbilisi_lochini).
 airdrome(reference_point(y(896629.90625)),tbilisi_lochini).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Lochini.rn4"),
-	 tbilisi_lochini).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Lochini.rn5"),
-	 tbilisi_lochini).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Lochini.rn4"),tbilisi_lochini).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Lochini.rn5"),tbilisi_lochini).
 airdrome(runway_name('0'("13R")),tbilisi_lochini).
 airdrome(runway_name('1'("31L")),tbilisi_lochini).
 airdrome(runways(end(0,"31L")),tbilisi_lochini).
@@ -2430,10 +2363,8 @@ airdrome(projectors(scene_objects(1,"externalId:400067")),soganlug).
 airdrome(radio("airfield30_0"),soganlug).
 airdrome(reference_point(x(-317828.046875)),soganlug).
 airdrome(reference_point(y(895407.1875)),soganlug).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/TbilisiMilitary.rn4"),
-	 soganlug).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/TbilisiMilitary.rn5"),
-	 soganlug).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/TbilisiMilitary.rn4"),soganlug).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/TbilisiMilitary.rn5"),soganlug).
 airdrome(runway_name('0'("14")),soganlug).
 airdrome(runway_name('1'("32")),soganlug).
 airdrome(runways(end(0,"32")),soganlug).
@@ -2557,10 +2488,8 @@ airdrome(projectors(scene_objects(1,"externalId:410135")),vaziani).
 airdrome(radio("airfield31_0"),vaziani).
 airdrome(reference_point(x(-319064.875)),vaziani).
 airdrome(reference_point(y(903148.53125)),vaziani).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Vaziani.rn4"),
-	 vaziani).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Vaziani.rn5"),
-	 vaziani).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Vaziani.rn4"),vaziani).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Vaziani.rn5"),vaziani).
 airdrome(runway_name('0'("13R")),vaziani).
 airdrome(runway_name('1'("31L")),vaziani).
 airdrome(runways(end(0,"31L")),vaziani).
@@ -2737,10 +2666,8 @@ airdrome(projectors(scene_objects(0,"externalId:420023")),beslan).
 airdrome(radio("airfield32_0"),beslan).
 airdrome(reference_point(x(-148590.171875)),beslan).
 airdrome(reference_point(y(843668.625)),beslan).
-airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Beslan.rn4"),
-	 beslan).
-airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Beslan.rn5"),
-	 beslan).
+airdrome(roadnet("./Mods/terrains/Caucasus/AirfieldsTaxiways/Beslan.rn4"),beslan).
+airdrome(roadnet5("./Mods/terrains/Caucasus/AirfieldsTaxiways/Beslan.rn5"),beslan).
 airdrome(runway_name('0'("10")),beslan).
 airdrome(runway_name('1'("28")),beslan).
 airdrome(runways(end(0,"28")),beslan).
@@ -2786,8 +2713,7 @@ airdrome(names(en("Creech AFB")),creech_afb).
 airdrome(radio("airfield1_0"),creech_afb).
 airdrome(reference_point(x(-360507.203125)),creech_afb).
 airdrome(reference_point(y(-75590.070313)),creech_afb).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/Creech.rn4"),
-	 creech_afb).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/Creech.rn4"),creech_afb).
 airdrome(runway_name('0'("08")),creech_afb).
 airdrome(runway_name('1'("26")),creech_afb).
 airdrome(runway_name('2'("13")),creech_afb).
@@ -2827,8 +2753,7 @@ airdrome(names(en("Groom Lake AFB")),groom_lake_afb).
 airdrome(radio("airfield2_0"),groom_lake_afb).
 airdrome(reference_point(x(-288604.671875)),groom_lake_afb).
 airdrome(reference_point(y(-86870.445313)),groom_lake_afb).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/groom.rn4"),
-	 groom_lake_afb).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/groom.rn4"),groom_lake_afb).
 airdrome(runway_name('0'("32")),groom_lake_afb).
 airdrome(runway_name('1'("14")),groom_lake_afb).
 airdrome(runways(end(0,"14")),groom_lake_afb).
@@ -2837,59 +2762,40 @@ airdrome(runways(name(0,"32-14")),groom_lake_afb).
 airdrome(runways(start(0,"32")),groom_lake_afb).
 airdrome(towers("externalId:120000"),groom_lake_afb).
 airdrome(theatre_of_war(nevada),mc_carran_international_airport).
-airdrome(en(mc_carran_international_airport),
-	 mc_carran_international_airport).
+airdrome(en(mc_carran_international_airport),mc_carran_international_airport).
 airdrome(abandoned(false),mc_carran_international_airport).
 airdrome(airdrome_id(3),mc_carran_international_airport).
-airdrome(beacons(beacon_id(0,"airfield3_0")),
-	 mc_carran_international_airport).
+airdrome(beacons(beacon_id(0,"airfield3_0")),mc_carran_international_airport).
 airdrome(beacons(runway_id(0,1)),mc_carran_international_airport).
-airdrome(beacons(runway_name(0,"7R-25L")),
-	 mc_carran_international_airport).
+airdrome(beacons(runway_name(0,"7R-25L")),mc_carran_international_airport).
 airdrome(beacons(runway_side(0,"25L")),mc_carran_international_airport).
-airdrome(beacons(beacon_id(1,"airfield3_1")),
-	 mc_carran_international_airport).
+airdrome(beacons(beacon_id(1,"airfield3_1")),mc_carran_international_airport).
 airdrome(beacons(runway_id(1,2)),mc_carran_international_airport).
-airdrome(beacons(runway_name(1,"7L-25R")),
-	 mc_carran_international_airport).
+airdrome(beacons(runway_name(1,"7L-25R")),mc_carran_international_airport).
 airdrome(beacons(runway_side(1,"25R")),mc_carran_international_airport).
-airdrome(beacons(beacon_id(2,"airfield3_2")),
-	 mc_carran_international_airport).
+airdrome(beacons(beacon_id(2,"airfield3_2")),mc_carran_international_airport).
 airdrome(beacons(runway_id(2,1)),mc_carran_international_airport).
-airdrome(beacons(runway_name(2,"7R-25L")),
-	 mc_carran_international_airport).
+airdrome(beacons(runway_name(2,"7R-25L")),mc_carran_international_airport).
 airdrome(beacons(runway_side(2,"25L")),mc_carran_international_airport).
-airdrome(beacons(beacon_id(3,"airfield3_3")),
-	 mc_carran_international_airport).
+airdrome(beacons(beacon_id(3,"airfield3_3")),mc_carran_international_airport).
 airdrome(beacons(runway_id(3,2)),mc_carran_international_airport).
-airdrome(beacons(runway_name(3,"7L-25R")),
-	 mc_carran_international_airport).
+airdrome(beacons(runway_name(3,"7L-25R")),mc_carran_international_airport).
 airdrome(beacons(runway_side(3,"25R")),mc_carran_international_airport).
-airdrome(beacons(beacon_id(4,"airfield3_4")),
-	 mc_carran_international_airport).
+airdrome(beacons(beacon_id(4,"airfield3_4")),mc_carran_international_airport).
 airdrome(civilian(false),mc_carran_international_airport).
 airdrome(class("2"),mc_carran_international_airport).
 airdrome(code("KLAS"),mc_carran_international_airport).
-airdrome(default_camera_position(bearing(0)),
-	 mc_carran_international_airport).
-airdrome(default_camera_position(pnt(-414841.5625)),
-	 mc_carran_international_airport).
-airdrome(default_camera_position(pnt(332.045441)),
-	 mc_carran_international_airport).
-airdrome(default_camera_position(pnt(-27130.964844)),
-	 mc_carran_international_airport).
-airdrome(display_name("McCarran International Airport"),
-	 mc_carran_international_airport).
+airdrome(default_camera_position(bearing(0)),mc_carran_international_airport).
+airdrome(default_camera_position(pnt(-414841.5625)),mc_carran_international_airport).
+airdrome(default_camera_position(pnt(332.045441)),mc_carran_international_airport).
+airdrome(default_camera_position(pnt(-27130.964844)),mc_carran_international_airport).
+airdrome(display_name("McCarran International Airport"),mc_carran_international_airport).
 airdrome(id("LasVegas"),mc_carran_international_airport).
-airdrome(names(en("McCarran International Airport")),
-	 mc_carran_international_airport).
+airdrome(names(en("McCarran International Airport")),mc_carran_international_airport).
 airdrome(radio("airfield3_0"),mc_carran_international_airport).
-airdrome(reference_point(x(-416011.359375)),
-	 mc_carran_international_airport).
-airdrome(reference_point(y(-26929.336914)),
-	 mc_carran_international_airport).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/LasVegas.rn4"),
-	 mc_carran_international_airport).
+airdrome(reference_point(x(-416011.359375)),mc_carran_international_airport).
+airdrome(reference_point(y(-26929.336914)),mc_carran_international_airport).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/LasVegas.rn4"),mc_carran_international_airport).
 airdrome(runway_name('0'("7L")),mc_carran_international_airport).
 airdrome(runway_name('1'("25R")),mc_carran_international_airport).
 airdrome(runway_name('2'("7R")),mc_carran_international_airport).
@@ -2929,8 +2835,7 @@ airdrome(names(en("Nellis AFB")),nellis_afb).
 airdrome(radio("airfield4_0"),nellis_afb).
 airdrome(reference_point(x(-398195.359375)),nellis_afb).
 airdrome(reference_point(y(-17233.242188)),nellis_afb).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/nellis.rn4"),
-	 nellis_afb).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/nellis.rn4"),nellis_afb).
 airdrome(runway_name('0'("03R")),nellis_afb).
 airdrome(runway_name('1'("21L")),nellis_afb).
 airdrome(runway_name('2'("03L")),nellis_afb).
@@ -2960,8 +2865,7 @@ airdrome(id("BeattyAirport"),beatty_airport).
 airdrome(names(en("Beatty Airport")),beatty_airport).
 airdrome(reference_point(x(-330553.625)),beatty_airport).
 airdrome(reference_point(y(-174958.53125)),beatty_airport).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/BeattyAirport.rn4"),
-	 beatty_airport).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/BeattyAirport.rn4"),beatty_airport).
 airdrome(runway_name('0'("16")),beatty_airport).
 airdrome(runway_name('1'("34")),beatty_airport).
 airdrome(runways(end(0,"34")),beatty_airport).
@@ -2976,8 +2880,7 @@ airdrome(civilian(false),boulder_city_airport).
 airdrome(class("3"),boulder_city_airport).
 airdrome(code("KBVU"),boulder_city_airport).
 airdrome(default_camera_position(bearing(0)),boulder_city_airport).
-airdrome(default_camera_position(pnt(-429658.9375)),
-	 boulder_city_airport).
+airdrome(default_camera_position(pnt(-429658.9375)),boulder_city_airport).
 airdrome(default_camera_position(pnt(337.329254)),boulder_city_airport).
 airdrome(default_camera_position(pnt(-922.24292)),boulder_city_airport).
 airdrome(display_name("Boulder City Airport"),boulder_city_airport).
@@ -2985,8 +2888,7 @@ airdrome(id("BoulderCityAirport"),boulder_city_airport).
 airdrome(names(en("Boulder City Airport")),boulder_city_airport).
 airdrome(reference_point(x(-429660.09375)),boulder_city_airport).
 airdrome(reference_point(y(-1148.724518)),boulder_city_airport).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/BoulderCityAirport.rn4"),
-	 boulder_city_airport).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/BoulderCityAirport.rn4"),boulder_city_airport).
 airdrome(runway_name('0'("33")),boulder_city_airport).
 airdrome(runway_name('1'("15")),boulder_city_airport).
 airdrome(runway_name('2'("27L")),boulder_city_airport).
@@ -3015,8 +2917,7 @@ airdrome(id("EchoBayAirport"),echo_bay).
 airdrome(names(en("Echo Bay")),echo_bay).
 airdrome(reference_point(x(-388592.34375)),echo_bay).
 airdrome(reference_point(y(33697.310547)),echo_bay).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/EchoBayAirport.rn4"),
-	 echo_bay).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/EchoBayAirport.rn4"),echo_bay).
 airdrome(runway_name('0'("6")),echo_bay).
 airdrome(runway_name('1'("24")),echo_bay).
 airdrome(runways(end(0,"24")),echo_bay).
@@ -3030,24 +2931,17 @@ airdrome(airdrome_id(8),henderson_executive_airport).
 airdrome(civilian(false),henderson_executive_airport).
 airdrome(class("3"),henderson_executive_airport).
 airdrome(code("KHND"),henderson_executive_airport).
-airdrome(default_camera_position(bearing(0)),
-	 henderson_executive_airport).
-airdrome(default_camera_position(pnt(-427588.125)),
-	 henderson_executive_airport).
-airdrome(default_camera_position(pnt(380.404999)),
-	 henderson_executive_airport).
-airdrome(default_camera_position(pnt(-26063.835938)),
-	 henderson_executive_airport).
-airdrome(display_name("Henderson Executive Airport"),
-	 henderson_executive_airport).
+airdrome(default_camera_position(bearing(0)),henderson_executive_airport).
+airdrome(default_camera_position(pnt(-427588.125)),henderson_executive_airport).
+airdrome(default_camera_position(pnt(380.404999)),henderson_executive_airport).
+airdrome(default_camera_position(pnt(-26063.835938)),henderson_executive_airport).
+airdrome(display_name("Henderson Executive Airport"),henderson_executive_airport).
 airdrome(id("HendersonExecutiveAirport"),henderson_executive_airport).
-airdrome(names(en("Henderson Executive Airport")),
-	 henderson_executive_airport).
+airdrome(names(en("Henderson Executive Airport")),henderson_executive_airport).
 airdrome(radio("airfield8_0"),henderson_executive_airport).
 airdrome(reference_point(x(-427352.71875)),henderson_executive_airport).
 airdrome(reference_point(y(-25668.716797)),henderson_executive_airport).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/HendersonExecutiveAirport.rn4"),
-	 henderson_executive_airport).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/HendersonExecutiveAirport.rn4"),henderson_executive_airport).
 airdrome(runway_name('0'("35R")),henderson_executive_airport).
 airdrome(runway_name('1'("17L")),henderson_executive_airport).
 airdrome(runway_name('2'("35L")),henderson_executive_airport).
@@ -3077,8 +2971,7 @@ airdrome(id("JeanAirport"),jean_airport).
 airdrome(names(en("Jean Airport")),jean_airport).
 airdrome(reference_point(x(-450392.859375)),jean_airport).
 airdrome(reference_point(y(-43000.460938)),jean_airport).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/JeanAirport.rn4"),
-	 jean_airport).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/JeanAirport.rn4"),jean_airport).
 airdrome(runway_name('0'("20R")),jean_airport).
 airdrome(runway_name('1'("2L")),jean_airport).
 airdrome(runway_name('2'("20L")),jean_airport).
@@ -3108,8 +3001,7 @@ airdrome(names(en("Laughlin Airport")),laughlin_airport).
 airdrome(radio("airfield10_0"),laughlin_airport).
 airdrome(reference_point(x(-516946.421875)),laughlin_airport).
 airdrome(reference_point(y(28306.30957)),laughlin_airport).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/LaughlinAirport.rn4"),
-	 laughlin_airport).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/LaughlinAirport.rn4"),laughlin_airport).
 airdrome(runway_name('0'("16")),laughlin_airport).
 airdrome(runway_name('1'("34")),laughlin_airport).
 airdrome(runways(end(0,"34")),laughlin_airport).
@@ -3133,8 +3025,7 @@ airdrome(id("LincolnCountyAirport"),lincoln_county).
 airdrome(names(en("Lincoln County")),lincoln_county).
 airdrome(reference_point(x(-224670.351563)),lincoln_county).
 airdrome(reference_point(y(33199.935547)),lincoln_county).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/LincolnCountyAirport.rn4"),
-	 lincoln_county).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/LincolnCountyAirport.rn4"),lincoln_county).
 airdrome(runway_name('0'("17")),lincoln_county).
 airdrome(runway_name('1'("35")),lincoln_county).
 airdrome(runways(end(0,"35")),lincoln_county).
@@ -3157,8 +3048,7 @@ airdrome(id("MesquiteAirport"),mesquite).
 airdrome(names(en("Mesquite")),mesquite).
 airdrome(reference_point(x(-329622.09375)),mesquite).
 airdrome(reference_point(y(68561.148438)),mesquite).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/MesquiteAirport.rn4"),
-	 mesquite).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/MesquiteAirport.rn4"),mesquite).
 airdrome(runway_name('0'("1")),mesquite).
 airdrome(runway_name('1'("19")),mesquite).
 airdrome(runways(end(0,"19")),mesquite).
@@ -3181,8 +3071,7 @@ airdrome(id("MinaAirport_3Q0"),mina_airport_3q0).
 airdrome(names(en("Mina Airport 3Q0")),mina_airport_3q0).
 airdrome(reference_point(x(-161504.46875)),mina_airport_3q0).
 airdrome(reference_point(y(-289784.765625)),mina_airport_3q0).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/MinaAirport_3Q0.rn4"),
-	 mina_airport_3q0).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/MinaAirport_3Q0.rn4"),mina_airport_3q0).
 airdrome(runway_name('0'("13")),mina_airport_3q0).
 airdrome(runway_name('1'("31")),mina_airport_3q0).
 airdrome(runways(end(0,"31")),mina_airport_3q0).
@@ -3214,8 +3103,7 @@ airdrome(names(en("North Las Vegas")),north_las_vegas).
 airdrome(radio("airfield15_0"),north_las_vegas).
 airdrome(reference_point(x(-400891.484375)),north_las_vegas).
 airdrome(reference_point(y(-31726.952148)),north_las_vegas).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/NorthLasVegasAirport.rn4"),
-	 north_las_vegas).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/NorthLasVegasAirport.rn4"),north_las_vegas).
 airdrome(runway_name('0'("25")),north_las_vegas).
 airdrome(runway_name('1'("7")),north_las_vegas).
 airdrome(runway_name('2'("30L")),north_las_vegas).
@@ -3243,8 +3131,7 @@ airdrome(civilian(false),pahute_mesa_airstrip).
 airdrome(class("3"),pahute_mesa_airstrip).
 airdrome(code(""),pahute_mesa_airstrip).
 airdrome(default_camera_position(bearing(0)),pahute_mesa_airstrip).
-airdrome(default_camera_position(pnt(-303782.6875)),
-	 pahute_mesa_airstrip).
+airdrome(default_camera_position(pnt(-303782.6875)),pahute_mesa_airstrip).
 airdrome(default_camera_position(pnt(771.102478)),pahute_mesa_airstrip).
 airdrome(default_camera_position(pnt(-132963.75)),pahute_mesa_airstrip).
 airdrome(display_name("Pahute Mesa Airstrip"),pahute_mesa_airstrip).
@@ -3252,8 +3139,7 @@ airdrome(id("PahuteMesaAirstrip"),pahute_mesa_airstrip).
 airdrome(names(en("Pahute Mesa Airstrip")),pahute_mesa_airstrip).
 airdrome(reference_point(x(-303620)),pahute_mesa_airstrip).
 airdrome(reference_point(y(-132937.929688)),pahute_mesa_airstrip).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/PahuteMesaAirstrip.rn4"),
-	 pahute_mesa_airstrip).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/PahuteMesaAirstrip.rn4"),pahute_mesa_airstrip).
 airdrome(runway_name('0'("36")),pahute_mesa_airstrip).
 airdrome(runway_name('1'("18")),pahute_mesa_airstrip).
 airdrome(runways(end(0,"18")),pahute_mesa_airstrip).
@@ -3276,8 +3162,7 @@ airdrome(id("TonopahAirport"),tonopah_airport).
 airdrome(names(en("Tonopah Airport")),tonopah_airport).
 airdrome(reference_point(x(-197282.898438)),tonopah_airport).
 airdrome(reference_point(y(-201302.882813)),tonopah_airport).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/TonopahAirport.rn4"),
-	 tonopah_airport).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/TonopahAirport.rn4"),tonopah_airport).
 airdrome(runway_name('0'("29")),tonopah_airport).
 airdrome(runway_name('1'("11")),tonopah_airport).
 airdrome(runway_name('2'("33")),tonopah_airport).
@@ -3294,51 +3179,37 @@ airdrome(theatre_of_war(nevada),tonopah_test_range_airfield).
 airdrome(en(tonopah_test_range_airfield),tonopah_test_range_airfield).
 airdrome(abandoned(false),tonopah_test_range_airfield).
 airdrome(airdrome_id(18),tonopah_test_range_airfield).
-airdrome(beacons(beacon_id(0,"airfield18_0")),
-	 tonopah_test_range_airfield).
+airdrome(beacons(beacon_id(0,"airfield18_0")),tonopah_test_range_airfield).
 airdrome(beacons(runway_id(0,1)),tonopah_test_range_airfield).
 airdrome(beacons(runway_name(0,"14-32")),tonopah_test_range_airfield).
 airdrome(beacons(runway_side(0,"14")),tonopah_test_range_airfield).
-airdrome(beacons(beacon_id(1,"airfield18_1")),
-	 tonopah_test_range_airfield).
+airdrome(beacons(beacon_id(1,"airfield18_1")),tonopah_test_range_airfield).
 airdrome(beacons(runway_id(1,2)),tonopah_test_range_airfield).
 airdrome(beacons(runway_name(1,"32-14")),tonopah_test_range_airfield).
 airdrome(beacons(runway_side(1,"32")),tonopah_test_range_airfield).
-airdrome(beacons(beacon_id(2,"airfield18_2")),
-	 tonopah_test_range_airfield).
+airdrome(beacons(beacon_id(2,"airfield18_2")),tonopah_test_range_airfield).
 airdrome(beacons(runway_id(2,2)),tonopah_test_range_airfield).
 airdrome(beacons(runway_name(2,"32-14")),tonopah_test_range_airfield).
 airdrome(beacons(runway_side(2,"32")),tonopah_test_range_airfield).
-airdrome(beacons(beacon_id(3,"airfield18_3")),
-	 tonopah_test_range_airfield).
+airdrome(beacons(beacon_id(3,"airfield18_3")),tonopah_test_range_airfield).
 airdrome(beacons(runway_id(3,1)),tonopah_test_range_airfield).
 airdrome(beacons(runway_name(3,"14-32")),tonopah_test_range_airfield).
 airdrome(beacons(runway_side(3,"14")),tonopah_test_range_airfield).
-airdrome(beacons(beacon_id(4,"airfield18_4")),
-	 tonopah_test_range_airfield).
+airdrome(beacons(beacon_id(4,"airfield18_4")),tonopah_test_range_airfield).
 airdrome(civilian(false),tonopah_test_range_airfield).
 airdrome(class("1"),tonopah_test_range_airfield).
 airdrome(code("KTNX"),tonopah_test_range_airfield).
-airdrome(default_camera_position(bearing(0)),
-	 tonopah_test_range_airfield).
-airdrome(default_camera_position(pnt(-226104.34375)),
-	 tonopah_test_range_airfield).
-airdrome(default_camera_position(pnt(846.414063)),
-	 tonopah_test_range_airfield).
-airdrome(default_camera_position(pnt(-173567.03125)),
-	 tonopah_test_range_airfield).
-airdrome(display_name("Tonopah Test Range Airfield"),
-	 tonopah_test_range_airfield).
+airdrome(default_camera_position(bearing(0)),tonopah_test_range_airfield).
+airdrome(default_camera_position(pnt(-226104.34375)),tonopah_test_range_airfield).
+airdrome(default_camera_position(pnt(846.414063)),tonopah_test_range_airfield).
+airdrome(default_camera_position(pnt(-173567.03125)),tonopah_test_range_airfield).
+airdrome(display_name("Tonopah Test Range Airfield"),tonopah_test_range_airfield).
 airdrome(id("TonopathAFB"),tonopah_test_range_airfield).
-airdrome(names(en("Tonopah Test Range Airfield")),
-	 tonopah_test_range_airfield).
+airdrome(names(en("Tonopah Test Range Airfield")),tonopah_test_range_airfield).
 airdrome(radio("airfield18_0"),tonopah_test_range_airfield).
-airdrome(reference_point(x(-226505.273438)),
-	 tonopah_test_range_airfield).
-airdrome(reference_point(y(-174698.484375)),
-	 tonopah_test_range_airfield).
-airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/TonopathAFB.rn4"),
-	 tonopah_test_range_airfield).
+airdrome(reference_point(x(-226505.273438)),tonopah_test_range_airfield).
+airdrome(reference_point(y(-174698.484375)),tonopah_test_range_airfield).
+airdrome(roadnet("./Mods/terrains/Nevada/AirfieldsTaxiways/TonopathAFB.rn4"),tonopah_test_range_airfield).
 airdrome(runway_name('0'("32")),tonopah_test_range_airfield).
 airdrome(runway_name('1'("14")),tonopah_test_range_airfield).
 airdrome(runways(end(0,"14")),tonopah_test_range_airfield).
@@ -3354,21 +3225,17 @@ airdrome(civilian(false),saint_pierre_du_mont).
 airdrome(class("3"),saint_pierre_du_mont).
 airdrome(code("A-1"),saint_pierre_du_mont).
 airdrome(default_camera_position(bearing(0)),saint_pierre_du_mont).
-airdrome(default_camera_position(pnt(-11748.155273)),
-	 saint_pierre_du_mont).
+airdrome(default_camera_position(pnt(-11748.155273)),saint_pierre_du_mont).
 airdrome(default_camera_position(pnt(17.745659)),saint_pierre_du_mont).
-airdrome(default_camera_position(pnt(-47417.679688)),
-	 saint_pierre_du_mont).
+airdrome(default_camera_position(pnt(-47417.679688)),saint_pierre_du_mont).
 airdrome(display_name("Saint Pierre du Mont"),saint_pierre_du_mont).
 airdrome(id("A1_Saint-Pierre-du-Mont"),saint_pierre_du_mont).
 airdrome(names(en("Saint Pierre du Mont")),saint_pierre_du_mont).
 airdrome(radio("airfield1_0"),saint_pierre_du_mont).
 airdrome(reference_point(x(-11938.055664)),saint_pierre_du_mont).
 airdrome(reference_point(y(-47277.988281)),saint_pierre_du_mont).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A1_Saint-Pierre-du-Mont.rn4"),
-	 saint_pierre_du_mont).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A1_Saint-Pierre-du-Mont.rn5"),
-	 saint_pierre_du_mont).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A1_Saint-Pierre-du-Mont.rn4"),saint_pierre_du_mont).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A1_Saint-Pierre-du-Mont.rn5"),saint_pierre_du_mont).
 airdrome(runway_name('0'("27")),saint_pierre_du_mont).
 airdrome(runway_name('1'("9")),saint_pierre_du_mont).
 airdrome(runways(end(0,"9")),saint_pierre_du_mont).
@@ -3393,10 +3260,8 @@ airdrome(names(en("Lignerolles")),lignerolles).
 airdrome(radio("airfield2_0"),lignerolles).
 airdrome(reference_point(x(-35526.060547)),lignerolles).
 airdrome(reference_point(y(-34407.238281)),lignerolles).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A12_Lignerolles.rn4"),
-	 lignerolles).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A12_Lignerolles.rn5"),
-	 lignerolles).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A12_Lignerolles.rn4"),lignerolles).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A12_Lignerolles.rn5"),lignerolles).
 airdrome(runway_name('0'("11")),lignerolles).
 airdrome(runway_name('1'("29")),lignerolles).
 airdrome(runways(end(0,"29")),lignerolles).
@@ -3421,10 +3286,8 @@ airdrome(names(en("Cretteville")),cretteville).
 airdrome(radio("airfield3_0"),cretteville).
 airdrome(reference_point(x(-18675.582031)),cretteville).
 airdrome(reference_point(y(-77791.164063)),cretteville).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A14_Cretteville.rn4"),
-	 cretteville).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A14_Cretteville.rn5"),
-	 cretteville).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A14_Cretteville.rn4"),cretteville).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A14_Cretteville.rn5"),cretteville).
 airdrome(runway_name('0'("31")),cretteville).
 airdrome(runway_name('1'("13")),cretteville).
 airdrome(runways(end(0,"13")),cretteville).
@@ -3449,10 +3312,8 @@ airdrome(names(en("Maupertus")),maupertus).
 airdrome(radio("airfield4_0"),maupertus).
 airdrome(reference_point(x(16014.310059)),maupertus).
 airdrome(reference_point(y(-84882.660156)),maupertus).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A15_Maupertus.rn4"),
-	 maupertus).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A15_Maupertus.rn5"),
-	 maupertus).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A15_Maupertus.rn4"),maupertus).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A15_Maupertus.rn5"),maupertus).
 airdrome(runway_name('0'("28")),maupertus).
 airdrome(runway_name('1'("10")),maupertus).
 airdrome(runways(end(0,"10")),maupertus).
@@ -3477,10 +3338,8 @@ airdrome(names(en("Brucheville")),brucheville).
 airdrome(radio("airfield5_0"),brucheville).
 airdrome(reference_point(x(-14857.000488)),brucheville).
 airdrome(reference_point(y(-66027.34375)),brucheville).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A16_Brucheville.rn4"),
-	 brucheville).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A16_Brucheville.rn5"),
-	 brucheville).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A16_Brucheville.rn4"),brucheville).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A16_Brucheville.rn5"),brucheville).
 airdrome(runway_name('0'("7")),brucheville).
 airdrome(runway_name('1'("25")),brucheville).
 airdrome(runways(end(0,"25")),brucheville).
@@ -3505,10 +3364,8 @@ airdrome(names(en("Meautis")),meautis).
 airdrome(radio("airfield6_0"),meautis).
 airdrome(reference_point(x(-24484.185547)),meautis).
 airdrome(reference_point(y(-71902.113281)),meautis).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A17_Meautis.rn4"),
-	 meautis).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A17_Meautis.rn5"),
-	 meautis).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A17_Meautis.rn4"),meautis).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A17_Meautis.rn5"),meautis).
 airdrome(runway_name('0'("8")),meautis).
 airdrome(runway_name('1'("26")),meautis).
 airdrome(runways(end(0,"26")),meautis).
@@ -3524,22 +3381,17 @@ airdrome(civilian(false),cricqueville_en_bessin).
 airdrome(class("1"),cricqueville_en_bessin).
 airdrome(code("A-2"),cricqueville_en_bessin).
 airdrome(default_camera_position(bearing(0)),cricqueville_en_bessin).
-airdrome(default_camera_position(pnt(-15015.946289)),
-	 cricqueville_en_bessin).
-airdrome(default_camera_position(pnt(12.381798)),
-	 cricqueville_en_bessin).
-airdrome(default_camera_position(pnt(-50727.847656)),
-	 cricqueville_en_bessin).
+airdrome(default_camera_position(pnt(-15015.946289)),cricqueville_en_bessin).
+airdrome(default_camera_position(pnt(12.381798)),cricqueville_en_bessin).
+airdrome(default_camera_position(pnt(-50727.847656)),cricqueville_en_bessin).
 airdrome(display_name("Cricqueville-en-Bessin"),cricqueville_en_bessin).
 airdrome(id("A2_Cricqueville-en-Bessin"),cricqueville_en_bessin).
 airdrome(names(en("Cricqueville-en-Bessin")),cricqueville_en_bessin).
 airdrome(radio("airfield7_0"),cricqueville_en_bessin).
 airdrome(reference_point(x(-14917.461426)),cricqueville_en_bessin).
 airdrome(reference_point(y(-50815.857422)),cricqueville_en_bessin).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A2_Cricqueville-en-Bessin.rn4"),
-	 cricqueville_en_bessin).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A2_Cricqueville-en-Bessin.rn5"),
-	 cricqueville_en_bessin).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A2_Cricqueville-en-Bessin.rn4"),cricqueville_en_bessin).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A2_Cricqueville-en-Bessin.rn5"),cricqueville_en_bessin).
 airdrome(runway_name('0'("17")),cricqueville_en_bessin).
 airdrome(runway_name('1'("35")),cricqueville_en_bessin).
 airdrome(runways(end(0,"35")),cricqueville_en_bessin).
@@ -3564,10 +3416,8 @@ airdrome(names(en("Lessay")),lessay).
 airdrome(radio("airfield8_0"),lessay).
 airdrome(reference_point(x(-33862.595703)),lessay).
 airdrome(reference_point(y(-86418.007813)),lessay).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A20_Lessay.rn4"),
-	 lessay).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A20_Lessay.rn5"),
-	 lessay).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A20_Lessay.rn4"),lessay).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A20_Lessay.rn5"),lessay).
 airdrome(runway_name('0'("24")),lessay).
 airdrome(runway_name('1'("6")),lessay).
 airdrome(runway_name('2'("30")),lessay).
@@ -3589,22 +3439,17 @@ airdrome(civilian(false),sainte_laurent_sur_mer).
 airdrome(class("4"),sainte_laurent_sur_mer).
 airdrome(code("A-21"),sainte_laurent_sur_mer).
 airdrome(default_camera_position(bearing(0)),sainte_laurent_sur_mer).
-airdrome(default_camera_position(pnt(-14985.5625)),
-	 sainte_laurent_sur_mer).
-airdrome(default_camera_position(pnt(22.498819)),
-	 sainte_laurent_sur_mer).
-airdrome(default_camera_position(pnt(-41225.511719)),
-	 sainte_laurent_sur_mer).
+airdrome(default_camera_position(pnt(-14985.5625)),sainte_laurent_sur_mer).
+airdrome(default_camera_position(pnt(22.498819)),sainte_laurent_sur_mer).
+airdrome(default_camera_position(pnt(-41225.511719)),sainte_laurent_sur_mer).
 airdrome(display_name("Sainte-Laurent-sur-Mer"),sainte_laurent_sur_mer).
 airdrome(id("A21_Saint_Laurent_sur_Mer"),sainte_laurent_sur_mer).
 airdrome(names(en("Sainte-Laurent-sur-Mer")),sainte_laurent_sur_mer).
 airdrome(radio("airfield9_0"),sainte_laurent_sur_mer).
 airdrome(reference_point(x(-14665.532227)),sainte_laurent_sur_mer).
 airdrome(reference_point(y(-41130.955078)),sainte_laurent_sur_mer).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A21_Saint_Laurent_sur_Mer.rn4"),
-	 sainte_laurent_sur_mer).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A21_Saint_Laurent_sur_Mer.rn5"),
-	 sainte_laurent_sur_mer).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A21_Saint_Laurent_sur_Mer.rn4"),sainte_laurent_sur_mer).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A21_Saint_Laurent_sur_Mer.rn5"),sainte_laurent_sur_mer).
 airdrome(runway_name('0'("11")),sainte_laurent_sur_mer).
 airdrome(runway_name('1'("29")),sainte_laurent_sur_mer).
 airdrome(runways(end(0,"29")),sainte_laurent_sur_mer).
@@ -3629,10 +3474,8 @@ airdrome(names(en("Biniville")),biniville).
 airdrome(radio("airfield10_0"),biniville).
 airdrome(reference_point(x(-7677.553223)),biniville).
 airdrome(reference_point(y(-84529.835938)),biniville).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A24_Biniville.rn4"),
-	 biniville).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A24_Biniville.rn5"),
-	 biniville).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A24_Biniville.rn4"),biniville).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A24_Biniville.rn5"),biniville).
 airdrome(runway_name('0'("14")),biniville).
 airdrome(runway_name('1'("32")),biniville).
 airdrome(runways(end(0,"32")),biniville).
@@ -3657,10 +3500,8 @@ airdrome(names(en("Cardonville")),cardonville).
 airdrome(radio("airfield11_0"),cardonville).
 airdrome(reference_point(x(-16508.699707)),cardonville).
 airdrome(reference_point(y(-53979.537109)),cardonville).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A3_Cardonville.rn4"),
-	 cardonville).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A3_Cardonville.rn5"),
-	 cardonville).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A3_Cardonville.rn4"),cardonville).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A3_Cardonville.rn5"),cardonville).
 airdrome(runway_name('0'("33")),cardonville).
 airdrome(runway_name('1'("15")),cardonville).
 airdrome(runways(end(0,"15")),cardonville).
@@ -3685,10 +3526,8 @@ airdrome(names(en("Deux Jumeaux")),deux_jumeaux).
 airdrome(radio("airfield12_0"),deux_jumeaux).
 airdrome(reference_point(x(-16784.448242)),deux_jumeaux).
 airdrome(reference_point(y(-48871.496094)),deux_jumeaux).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A4_Deux_Jumeaux.rn4"),
-	 deux_jumeaux).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A4_Deux_Jumeaux.rn5"),
-	 deux_jumeaux).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A4_Deux_Jumeaux.rn4"),deux_jumeaux).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A4_Deux_Jumeaux.rn5"),deux_jumeaux).
 airdrome(runway_name('0'("28")),deux_jumeaux).
 airdrome(runway_name('1'("10")),deux_jumeaux).
 airdrome(runways(end(0,"10")),deux_jumeaux).
@@ -3713,10 +3552,8 @@ airdrome(names(en("Chippelle")),chippelle).
 airdrome(radio("airfield13_0"),chippelle).
 airdrome(reference_point(x(-28484.011719)),chippelle).
 airdrome(reference_point(y(-47891.75)),chippelle).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A5_Chapelle.rn4"),
-	 chippelle).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A5_Chapelle.rn5"),
-	 chippelle).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A5_Chapelle.rn4"),chippelle).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A5_Chapelle.rn5"),chippelle).
 airdrome(runway_name('0'("6")),chippelle).
 airdrome(runway_name('1'("24")),chippelle).
 airdrome(runways(end(0,"24")),chippelle).
@@ -3741,10 +3578,8 @@ airdrome(names(en("Beuzeville")),beuzeville).
 airdrome(radio("airfield14_0"),beuzeville).
 airdrome(reference_point(x(-9213.708321)),beuzeville).
 airdrome(reference_point(y(-72131.675455)),beuzeville).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A6_Beuzevelle.rn4"),
-	 beuzeville).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A6_Beuzevelle.rn5"),
-	 beuzeville).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A6_Beuzevelle.rn4"),beuzeville).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A6_Beuzevelle.rn5"),beuzeville).
 airdrome(runway_name('0'("5")),beuzeville).
 airdrome(runway_name('1'("23")),beuzeville).
 airdrome(runways(end(0,"23")),beuzeville).
@@ -3769,10 +3604,8 @@ airdrome(names(en("Azeville")),azeville).
 airdrome(radio("airfield15_0"),azeville).
 airdrome(reference_point(x(-2528.950195)),azeville).
 airdrome(reference_point(y(-73675.082031)),azeville).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A7_Azeville.rn4"),
-	 azeville).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A7_Azeville.rn5"),
-	 azeville).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A7_Azeville.rn4"),azeville).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A7_Azeville.rn5"),azeville).
 airdrome(runway_name('0'("7")),azeville).
 airdrome(runway_name('1'("25")),azeville).
 airdrome(runways(end(0,"25")),azeville).
@@ -3797,10 +3630,8 @@ airdrome(names(en("Picauville")),picauville).
 airdrome(radio("airfield16_0"),picauville).
 airdrome(reference_point(x(-12078.898926)),picauville).
 airdrome(reference_point(y(-80241.097656)),picauville).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A8_Picauville.rn4"),
-	 picauville).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A8_Picauville.rn5"),
-	 picauville).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A8_Picauville.rn4"),picauville).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A8_Picauville.rn5"),picauville).
 airdrome(runway_name('0'("11")),picauville).
 airdrome(runway_name('1'("29")),picauville).
 airdrome(runways(end(0,"29")),picauville).
@@ -3825,10 +3656,8 @@ airdrome(names(en("Le Molay")),le_molay).
 airdrome(radio("airfield17_0"),le_molay).
 airdrome(reference_point(x(-26123.464844)),le_molay).
 airdrome(reference_point(y(-41403.646484)),le_molay).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A9_Le_Molay.rn4"),
-	 le_molay).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A9_Le_Molay.rn5"),
-	 le_molay).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/A9_Le_Molay.rn4"),le_molay).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/A9_Le_Molay.rn5"),le_molay).
 airdrome(runway_name('0'("22")),le_molay).
 airdrome(runway_name('1'("4")),le_molay).
 airdrome(runways(end(0,"4")),le_molay).
@@ -3853,10 +3682,8 @@ airdrome(names(en("Longues-sur-Mer")),longues_sur_mer).
 airdrome(radio("airfield18_0"),longues_sur_mer).
 airdrome(reference_point(x(-16733.196289)),longues_sur_mer).
 airdrome(reference_point(y(-28909.375977)),longues_sur_mer).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B11_Longues-sur-Mer.rn4"),
-	 longues_sur_mer).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B11_Longues-sur-Mer.rn5"),
-	 longues_sur_mer).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B11_Longues-sur-Mer.rn4"),longues_sur_mer).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B11_Longues-sur-Mer.rn5"),longues_sur_mer).
 airdrome(runway_name('0'("12")),longues_sur_mer).
 airdrome(runway_name('1'("30")),longues_sur_mer).
 airdrome(runways(end(0,"30")),longues_sur_mer).
@@ -3881,10 +3708,8 @@ airdrome(names(en("Carpiquet")),carpiquet).
 airdrome(radio("airfield19_0"),carpiquet).
 airdrome(reference_point(x(-34782.396484)),carpiquet).
 airdrome(reference_point(y(-9983.634766)),carpiquet).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B17_ Carpiquet.rn4"),
-	 carpiquet).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B17_ Carpiquet.rn5"),
-	 carpiquet).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B17_ Carpiquet.rn4"),carpiquet).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B17_ Carpiquet.rn5"),carpiquet).
 airdrome(runway_name('0'("30")),carpiquet).
 airdrome(runway_name('1'("12")),carpiquet).
 airdrome(runways(end(0,"12")),carpiquet).
@@ -3909,10 +3734,8 @@ airdrome(names(en("Bazenville")),bazenville).
 airdrome(radio("airfield20_0"),bazenville).
 airdrome(reference_point(x(-20712.899414)),bazenville).
 airdrome(reference_point(y(-18498.402344)),bazenville).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B2_Bazenville.rn4"),
-	 bazenville).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B2_Bazenville.rn5"),
-	 bazenville).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B2_Bazenville.rn4"),bazenville).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B2_Bazenville.rn5"),bazenville).
 airdrome(runway_name('0'("5")),bazenville).
 airdrome(runway_name('1'("23")),bazenville).
 airdrome(runways(end(0,"23")),bazenville).
@@ -3928,21 +3751,17 @@ airdrome(civilian(false),sainte_croix_sur_mer).
 airdrome(class("3"),sainte_croix_sur_mer).
 airdrome(code("B-3"),sainte_croix_sur_mer).
 airdrome(default_camera_position(bearing(0)),sainte_croix_sur_mer).
-airdrome(default_camera_position(pnt(-18785.378906)),
-	 sainte_croix_sur_mer).
+airdrome(default_camera_position(pnt(-18785.378906)),sainte_croix_sur_mer).
 airdrome(default_camera_position(pnt(24.398338)),sainte_croix_sur_mer).
-airdrome(default_camera_position(pnt(-15101.933594)),
-	 sainte_croix_sur_mer).
+airdrome(default_camera_position(pnt(-15101.933594)),sainte_croix_sur_mer).
 airdrome(display_name("Sainte-Croix-sur-Mer"),sainte_croix_sur_mer).
 airdrome(id("B3_St Croix-sur-Mer"),sainte_croix_sur_mer).
 airdrome(names(en("Sainte-Croix-sur-Mer")),sainte_croix_sur_mer).
 airdrome(radio("airfield21_0"),sainte_croix_sur_mer).
 airdrome(reference_point(x(-18787.417239)),sainte_croix_sur_mer).
 airdrome(reference_point(y(-15106.744633)),sainte_croix_sur_mer).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B3_St Croix-sur-Mer.rn4"),
-	 sainte_croix_sur_mer).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B3_St Croix-sur-Mer.rn5"),
-	 sainte_croix_sur_mer).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B3_St Croix-sur-Mer.rn4"),sainte_croix_sur_mer).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B3_St Croix-sur-Mer.rn5"),sainte_croix_sur_mer).
 airdrome(runway_name('0'("27")),sainte_croix_sur_mer).
 airdrome(runway_name('1'("9")),sainte_croix_sur_mer).
 airdrome(runways(end(0,"9")),sainte_croix_sur_mer).
@@ -3967,10 +3786,8 @@ airdrome(names(en("Beny-sur-Mer")),beny_sur_mer).
 airdrome(radio("airfield22_0"),beny_sur_mer).
 airdrome(reference_point(x(-21040.570313)),beny_sur_mer).
 airdrome(reference_point(y(-8437.482422)),beny_sur_mer).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B4_Beny-sur-Mer.rn4"),
-	 beny_sur_mer).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B4_Beny-sur-Mer.rn5"),
-	 beny_sur_mer).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B4_Beny-sur-Mer.rn4"),beny_sur_mer).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B4_Beny-sur-Mer.rn5"),beny_sur_mer).
 airdrome(runway_name('0'("35")),beny_sur_mer).
 airdrome(runway_name('1'("17")),beny_sur_mer).
 airdrome(runways(end(0,"17")),beny_sur_mer).
@@ -3995,10 +3812,8 @@ airdrome(names(en("Rucqueville")),rucqueville).
 airdrome(radio("airfield23_0"),rucqueville).
 airdrome(reference_point(x(-26589.313477)),rucqueville).
 airdrome(reference_point(y(-19444.007813)),rucqueville).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B7_Rucqueville.rn4"),
-	 rucqueville).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B7_Rucqueville.rn5"),
-	 rucqueville).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B7_Rucqueville.rn4"),rucqueville).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B7_Rucqueville.rn5"),rucqueville).
 airdrome(runway_name('0'("27")),rucqueville).
 airdrome(runway_name('1'("9")),rucqueville).
 airdrome(runways(end(0,"9")),rucqueville).
@@ -4023,10 +3838,8 @@ airdrome(names(en("Sommervieu")),sommervieu).
 airdrome(radio("airfield24_0"),sommervieu).
 airdrome(reference_point(x(-21371.758789)),sommervieu).
 airdrome(reference_point(y(-26206.679688)),sommervieu).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B8_Sommervieu.rn4"),
-	 sommervieu).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B8_Sommervieu.rn5"),
-	 sommervieu).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B8_Sommervieu.rn4"),sommervieu).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B8_Sommervieu.rn5"),sommervieu).
 airdrome(runway_name('0'("9")),sommervieu).
 airdrome(runway_name('1'("27")),sommervieu).
 airdrome(runways(end(0,"27")),sommervieu).
@@ -4051,10 +3864,8 @@ airdrome(names(en("Lantheuil")),lantheuil).
 airdrome(radio("airfield25_0"),lantheuil).
 airdrome(reference_point(x(-24264.160156)),lantheuil).
 airdrome(reference_point(y(-16467.212402)),lantheuil).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B9_Lantheuil.rn4"),
-	 lantheuil).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B9_Lantheuil.rn5"),
-	 lantheuil).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/B9_Lantheuil.rn4"),lantheuil).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/B9_Lantheuil.rn5"),lantheuil).
 airdrome(runway_name('0'("6")),lantheuil).
 airdrome(runway_name('1'("24")),lantheuil).
 airdrome(runways(end(0,"24")),lantheuil).
@@ -4079,10 +3890,8 @@ airdrome(names(en("Evreux")),evreux).
 airdrome(radio("airfield26_0"),evreux).
 airdrome(reference_point(x(-45898.339844)),evreux).
 airdrome(reference_point(y(112233.769531)),evreux).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Evreux.rn4"),
-	 evreux).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Evreux.rn5"),
-	 evreux).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Evreux.rn4"),evreux).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Evreux.rn5"),evreux).
 airdrome(runway_name('0'("34")),evreux).
 airdrome(runway_name('1'("16")),evreux).
 airdrome(runway_name('2'("21")),evreux).
@@ -4113,10 +3922,8 @@ airdrome(names(en("Chailey")),chailey).
 airdrome(radio("airfield27_0"),chailey).
 airdrome(reference_point(x(163729.554688)),chailey).
 airdrome(reference_point(y(11866.79248)),chailey).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Chailey.rn4"),
-	 chailey).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Chailey.rn5"),
-	 chailey).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Chailey.rn4"),chailey).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Chailey.rn5"),chailey).
 airdrome(runway_name('0'("35")),chailey).
 airdrome(runway_name('1'("17")),chailey).
 airdrome(runway_name('2'("5")),chailey).
@@ -4147,10 +3954,8 @@ airdrome(names(en("Needs Oar Point")),needs_oar_point).
 airdrome(radio("airfield28_0"),needs_oar_point).
 airdrome(reference_point(x(141296.390625)),needs_oar_point).
 airdrome(reference_point(y(-84372.234375)),needs_oar_point).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Needs_Oar_Point.rn4"),
-	 needs_oar_point).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Needs_Oar_Point.rn5"),
-	 needs_oar_point).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Needs_Oar_Point.rn4"),needs_oar_point).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Needs_Oar_Point.rn5"),needs_oar_point).
 airdrome(runway_name('0'("16")),needs_oar_point).
 airdrome(runway_name('1'("34")),needs_oar_point).
 airdrome(runway_name('2'("23")),needs_oar_point).
@@ -4181,10 +3986,8 @@ airdrome(names(en("Funtington")),funtington).
 airdrome(radio("airfield29_0"),funtington).
 airdrome(reference_point(x(152367.835938)),funtington).
 airdrome(reference_point(y(-45975.689453)),funtington).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Funtington.rn4"),
-	 funtington).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Funtington.rn5"),
-	 funtington).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Funtington.rn4"),funtington).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Funtington.rn5"),funtington).
 airdrome(runway_name('0'("1")),funtington).
 airdrome(runway_name('1'("19")),funtington).
 airdrome(runway_name('2'("7")),funtington).
@@ -4215,10 +4018,8 @@ airdrome(names(en("Tangmere")),tangmere).
 airdrome(radio("airfield30_0"),tangmere).
 airdrome(reference_point(x(150158.65625)),tangmere).
 airdrome(reference_point(y(-33957.914063)),tangmere).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Tangmere.rn4"),
-	 tangmere).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Tangmere.rn5"),
-	 tangmere).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Tangmere.rn4"),tangmere).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Tangmere.rn5"),tangmere).
 airdrome(runway_name('0'("11")),tangmere).
 airdrome(runway_name('1'("29")),tangmere).
 airdrome(runway_name('2'("24")),tangmere).
@@ -4249,10 +4050,8 @@ airdrome(names(en("Ford_AF")),ford_af).
 airdrome(radio("airfield31_0"),ford_af).
 airdrome(reference_point(x(147498.585938)),ford_af).
 airdrome(reference_point(y(-25722.724609)),ford_af).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Ford.rn4"),
-	 ford_af).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Ford.rn5"),
-	 ford_af).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Ford.rn4"),ford_af).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Ford.rn5"),ford_af).
 airdrome(runway_name('0'("9")),ford_af).
 airdrome(runway_name('1'("27")),ford_af).
 airdrome(runway_name('2'("22")),ford_af).
@@ -4283,10 +4082,8 @@ airdrome(names(en("Argentan")),argentan).
 airdrome(radio("airfield32_0"),argentan).
 airdrome(reference_point(x(-78808.039063)),argentan).
 airdrome(reference_point(y(22665.379883)),argentan).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Argentan.rn4"),
-	 argentan).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Argentan.rn5"),
-	 argentan).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Argentan.rn4"),argentan).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Argentan.rn5"),argentan).
 airdrome(runway_name('0'("12")),argentan).
 airdrome(runway_name('1'("30")),argentan).
 airdrome(runways(end(0,"30")),argentan).
@@ -4311,10 +4108,8 @@ airdrome(names(en("Goulet")),goulet).
 airdrome(radio("airfield33_0"),goulet).
 airdrome(reference_point(x(-81156.757813)),goulet).
 airdrome(reference_point(y(16794.293945)),goulet).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Goulet.rn4"),
-	 goulet).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Goulet.rn5"),
-	 goulet).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Goulet.rn4"),goulet).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Goulet.rn5"),goulet).
 airdrome(runway_name('0'("21")),goulet).
 airdrome(runway_name('1'("3")),goulet).
 airdrome(runways(end(0,"3")),goulet).
@@ -4339,10 +4134,8 @@ airdrome(names(en("Barville")),barville).
 airdrome(radio("airfield34_0"),barville).
 airdrome(reference_point(x(-109934.785156)),barville).
 airdrome(reference_point(y(49091.339844)),barville).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Barville.rn4"),
-	 barville).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Barville.rn5"),
-	 barville).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Barville.rn4"),barville).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Barville.rn5"),barville).
 airdrome(runway_name('0'("28")),barville).
 airdrome(runway_name('1'("10")),barville).
 airdrome(runway_name('2'("15")),barville).
@@ -4373,10 +4166,8 @@ airdrome(names(en("Essay")),essay).
 airdrome(radio("airfield35_0"),essay).
 airdrome(reference_point(x(-105527.957031)),essay).
 airdrome(reference_point(y(45008.003906)),essay).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Essay.rn4"),
-	 essay).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Essay.rn5"),
-	 essay).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Essay.rn4"),essay).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Essay.rn5"),essay).
 airdrome(runway_name('0'("9")),essay).
 airdrome(runway_name('1'("27")),essay).
 airdrome(runways(end(0,"27")),essay).
@@ -4401,10 +4192,8 @@ airdrome(names(en("Hauterive")),hauterive).
 airdrome(radio("airfield36_0"),hauterive).
 airdrome(reference_point(x(-107997.585938)),hauterive).
 airdrome(reference_point(y(40856.037109)),hauterive).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Hauterive.rn4"),
-	 hauterive).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Hauterive.rn5"),
-	 hauterive).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Hauterive.rn4"),hauterive).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Hauterive.rn5"),hauterive).
 airdrome(runway_name('0'("32")),hauterive).
 airdrome(runway_name('1'("14")),hauterive).
 airdrome(runways(end(0,"14")),hauterive).
@@ -4429,10 +4218,8 @@ airdrome(names(en("Vrigny")),vrigny).
 airdrome(radio("airfield38_0"),vrigny).
 airdrome(reference_point(x(-89449.566406)),vrigny).
 airdrome(reference_point(y(25165.529297)),vrigny).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Vrigny.rn4"),
-	 vrigny).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Vrigny.rn5"),
-	 vrigny).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Vrigny.rn4"),vrigny).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Vrigny.rn5"),vrigny).
 airdrome(runway_name('0'("32")),vrigny).
 airdrome(runway_name('1'("14")),vrigny).
 airdrome(runways(end(0,"14")),vrigny).
@@ -4457,10 +4244,8 @@ airdrome(names(en("Conches")),conches).
 airdrome(radio("airfield40_0"),conches).
 airdrome(reference_point(x(-57019.595703)),conches).
 airdrome(reference_point(y(94577.890625)),conches).
-airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Conches.rn4"),
-	 conches).
-airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Conches.rn5"),
-	 conches).
+airdrome(roadnet("./Mods/terrains/Normandy/AirfieldsTaxiways/Conches.rn4"),conches).
+airdrome(roadnet5("./Mods/terrains/Normandy/AirfieldsTaxiways/Conches.rn5"),conches).
 airdrome(runway_name('0'("22")),conches).
 airdrome(runway_name('1'("4")),conches).
 airdrome(runways(end(0,"4")),conches).
@@ -4477,11 +4262,9 @@ airdrome(civilian(false),abu_musa_island_airport).
 airdrome(class("1"),abu_musa_island_airport).
 airdrome(code("OIBA"),abu_musa_island_airport).
 airdrome(default_camera_position(bearing(0)),abu_musa_island_airport).
-airdrome(default_camera_position(pnt(-31343.894531)),
-	 abu_musa_island_airport).
+airdrome(default_camera_position(pnt(-31343.894531)),abu_musa_island_airport).
 airdrome(default_camera_position(pnt(2.5)),abu_musa_island_airport).
-airdrome(default_camera_position(pnt(-121343.9375)),
-	 abu_musa_island_airport).
+airdrome(default_camera_position(pnt(-121343.9375)),abu_musa_island_airport).
 airdrome(display_name("Abu Musa Island Airport"),abu_musa_island_airport).
 airdrome(fueldepots("externalId:110010"),abu_musa_island_airport).
 airdrome(fueldepots("externalId:110011"),abu_musa_island_airport).
@@ -4495,10 +4278,8 @@ airdrome(names(en("Abu Musa Island Airport")),abu_musa_island_airport).
 airdrome(radio("airfield1_0"),abu_musa_island_airport).
 airdrome(reference_point(x(-31505.274308)),abu_musa_island_airport).
 airdrome(reference_point(y(-121335.307759)),abu_musa_island_airport).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/abu_musa_airport.rn4"),
-	 abu_musa_island_airport).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/abu_musa_airport.rn5"),
-	 abu_musa_island_airport).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/abu_musa_airport.rn4"),abu_musa_island_airport).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/abu_musa_airport.rn5"),abu_musa_island_airport).
 airdrome(runway_name('0'("08")),abu_musa_island_airport).
 airdrome(runway_name('1'("26")),abu_musa_island_airport).
 airdrome(runways(end(0,"26")),abu_musa_island_airport).
@@ -4551,10 +4332,8 @@ airdrome(names(en("Bandar Abbas Intl")),bandar_abbas_intl).
 airdrome(radio("airfield2_0"),bandar_abbas_intl).
 airdrome(reference_point(x(115765.882813)),bandar_abbas_intl).
 airdrome(reference_point(y(14257.968262)),bandar_abbas_intl).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Bandar_Abbas_airfield.rn4"),
-	 bandar_abbas_intl).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Bandar_Abbas_airfield.rn5"),
-	 bandar_abbas_intl).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Bandar_Abbas_airfield.rn4"),bandar_abbas_intl).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Bandar_Abbas_airfield.rn5"),bandar_abbas_intl).
 airdrome(runway_name('0'("03R")),bandar_abbas_intl).
 airdrome(runway_name('1'("21L")),bandar_abbas_intl).
 airdrome(runways(end(0,"21L")),bandar_abbas_intl).
@@ -4600,10 +4379,8 @@ airdrome(names(en("Bandar Lengeh")),bandar_lengeh).
 airdrome(radio("airfield3_0"),bandar_lengeh).
 airdrome(reference_point(x(41536.408234)),bandar_lengeh).
 airdrome(reference_point(y(-140987.327942)),bandar_lengeh).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Bandar_Lengeh_Airport.rn4"),
-	 bandar_lengeh).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Bandar_Lengeh_Airport.rn5"),
-	 bandar_lengeh).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Bandar_Lengeh_Airport.rn4"),bandar_lengeh).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Bandar_Lengeh_Airport.rn5"),bandar_lengeh).
 airdrome(runway_name('0'("08")),bandar_lengeh).
 airdrome(runway_name('1'("26")),bandar_lengeh).
 airdrome(runways(end(0,"26")),bandar_lengeh).
@@ -4697,10 +4474,8 @@ airdrome(names(en("Al Dhafra AB")),al_dhafra_ab).
 airdrome(radio("airfield4_0"),al_dhafra_ab).
 airdrome(reference_point(x(-211027.78125)),al_dhafra_ab).
 airdrome(reference_point(y(-173240.007813)),al_dhafra_ab).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Dhafra_AFB.rn4"),
-	 al_dhafra_ab).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Dhafra_AFB.rn5"),
-	 al_dhafra_ab).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Dhafra_AFB.rn4"),al_dhafra_ab).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Dhafra_AFB.rn5"),al_dhafra_ab).
 airdrome(runway_name('0'("13L")),al_dhafra_ab).
 airdrome(runway_name('1'("31R")),al_dhafra_ab).
 airdrome(runway_name('2'("13R")),al_dhafra_ab).
@@ -4805,10 +4580,8 @@ airdrome(names(en("Dubai Intl")),dubai_intl).
 airdrome(radio("airfield5_0"),dubai_intl).
 airdrome(reference_point(x(-100594.371094)),dubai_intl).
 airdrome(reference_point(y(-88875.371094)),dubai_intl).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Dubai_International_Airport.rn4"),
-	 dubai_intl).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Dubai_International_Airport.rn5"),
-	 dubai_intl).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Dubai_International_Airport.rn4"),dubai_intl).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Dubai_International_Airport.rn5"),dubai_intl).
 airdrome(runway_name('0'("30R")),dubai_intl).
 airdrome(runway_name('1'("12L")),dubai_intl).
 airdrome(runway_name('2'("30L")),dubai_intl).
@@ -4893,10 +4666,8 @@ airdrome(names(en("Al Maktoum Intl")),al_maktoum_intl).
 airdrome(radio("airfield6_0"),al_maktoum_intl).
 airdrome(reference_point(x(-140127.671875)),al_maktoum_intl).
 airdrome(reference_point(y(-110068.890625)),al_maktoum_intl).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Dubai_World_Central_Airport.rn4"),
-	 al_maktoum_intl).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Dubai_World_Central_Airport.rn5"),
-	 al_maktoum_intl).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Dubai_World_Central_Airport.rn4"),al_maktoum_intl).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Dubai_World_Central_Airport.rn5"),al_maktoum_intl).
 airdrome(runway_name('0'("30")),al_maktoum_intl).
 airdrome(runway_name('1'("12")),al_maktoum_intl).
 airdrome(runways(end(0,"12")),al_maktoum_intl).
@@ -4944,10 +4715,8 @@ airdrome(names(en("Fujairah Intl")),fujairah_intl).
 airdrome(radio("airfield7_0"),fujairah_intl).
 airdrome(reference_point(x(-117531.972946)),fujairah_intl).
 airdrome(reference_point(y(7939.275818)),fujairah_intl).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Fujarirah_AFB.rn4"),
-	 fujairah_intl).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Fujarirah_AFB.rn5"),
-	 fujairah_intl).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Fujarirah_AFB.rn4"),fujairah_intl).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Fujarirah_AFB.rn5"),fujairah_intl).
 airdrome(runway_name('0'("29")),fujairah_intl).
 airdrome(runway_name('1'("11")),fujairah_intl).
 airdrome(runways(end(0,"11")),fujairah_intl).
@@ -4990,10 +4759,8 @@ airdrome(id("Greater_Tunb_Island_AFB"),tunb_island_afb).
 airdrome(names(en("Tunb Island AFB")),tunb_island_afb).
 airdrome(reference_point(x(10515.440918)),tunb_island_afb).
 airdrome(reference_point(y(-92440.328125)),tunb_island_afb).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Greater_Tunb_Island_AFB.rn4"),
-	 tunb_island_afb).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Greater_Tunb_Island_AFB.rn5"),
-	 tunb_island_afb).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Greater_Tunb_Island_AFB.rn4"),tunb_island_afb).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Greater_Tunb_Island_AFB.rn5"),tunb_island_afb).
 airdrome(runway_name('0'("03")),tunb_island_afb).
 airdrome(runway_name('1'("21")),tunb_island_afb).
 airdrome(runways(end(0,"21")),tunb_island_afb).
@@ -5039,10 +4806,8 @@ airdrome(names(en("Havadarya")),havadarya).
 airdrome(radio("airfield9_0"),havadarya).
 airdrome(reference_point(x(109297.824219)),havadarya).
 airdrome(reference_point(y(-6278.723145)),havadarya).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Havadarya_AFB.rn4"),
-	 havadarya).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Havadarya_AFB.rn5"),
-	 havadarya).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Havadarya_AFB.rn4"),havadarya).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Havadarya_AFB.rn5"),havadarya).
 airdrome(runway_name('0'("26")),havadarya).
 airdrome(runway_name('1'("08")),havadarya).
 airdrome(runways(end(0,"08")),havadarya).
@@ -5094,10 +4859,8 @@ airdrome(names(en("Khasab")),khasab).
 airdrome(radio("airfield10_0"),khasab).
 airdrome(reference_point(x(-219.726892)),khasab).
 airdrome(reference_point(y(-177.707709)),khasab).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Khasab_AFB.rn4"),
-	 khasab).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Khasab_AFB.rn5"),
-	 khasab).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Khasab_AFB.rn4"),khasab).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Khasab_AFB.rn5"),khasab).
 airdrome(runway_name('0'("19")),khasab).
 airdrome(runway_name('1'("01")),khasab).
 airdrome(runways(end(0,"01")),khasab).
@@ -5130,10 +4893,8 @@ airdrome(names(en("Lar Airbase")),lar_airbase).
 airdrome(radio("airfield11_0"),lar_airbase).
 airdrome(reference_point(x(168977.578922)),lar_airbase).
 airdrome(reference_point(y(-182359.639734)),lar_airbase).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Lar_airbase.rn4"),
-	 lar_airbase).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Lar_airbase.rn5"),
-	 lar_airbase).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Lar_airbase.rn4"),lar_airbase).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Lar_airbase.rn5"),lar_airbase).
 airdrome(runway_name('0'("09")),lar_airbase).
 airdrome(runway_name('1'("27")),lar_airbase).
 airdrome(runways(end(0,"27")),lar_airbase).
@@ -5190,10 +4951,8 @@ airdrome(names(en("Al Minhad AB")),al_minhad_ab).
 airdrome(radio("airfield12_0"),al_minhad_ab).
 airdrome(reference_point(x(-126013.707153)),al_minhad_ab).
 airdrome(reference_point(y(-89133.460938)),al_minhad_ab).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Minhad_AFB.rn4"),
-	 al_minhad_ab).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Minhad_AFB.rn5"),
-	 al_minhad_ab).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Minhad_AFB.rn4"),al_minhad_ab).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Minhad_AFB.rn5"),al_minhad_ab).
 airdrome(runway_name('0'("27")),al_minhad_ab).
 airdrome(runway_name('1'("09")),al_minhad_ab).
 airdrome(runways(end(0,"09")),al_minhad_ab).
@@ -5231,10 +4990,8 @@ airdrome(names(en("Qeshm Island")),qeshm_island).
 airdrome(radio("airfield13_0"),qeshm_island).
 airdrome(reference_point(x(64800.714844)),qeshm_island).
 airdrome(reference_point(y(-33383.481445)),qeshm_island).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Qeshm_Airport.rn4"),
-	 qeshm_island).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Qeshm_Airport.rn5"),
-	 qeshm_island).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Qeshm_Airport.rn4"),qeshm_island).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Qeshm_Airport.rn5"),qeshm_island).
 airdrome(runway_name('0'("23")),qeshm_island).
 airdrome(runway_name('1'("05")),qeshm_island).
 airdrome(runways(end(0,"05")),qeshm_island).
@@ -5298,10 +5055,8 @@ airdrome(names(en("Sharjah Intl")),sharjah_intl).
 airdrome(radio("airfield14_0"),sharjah_intl).
 airdrome(reference_point(x(-92544.089844)),sharjah_intl).
 airdrome(reference_point(y(-73373.601563)),sharjah_intl).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Sharjah_International_Airport.rn4"),
-	 sharjah_intl).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Sharjah_International_Airport.rn5"),
-	 sharjah_intl).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Sharjah_International_Airport.rn4"),sharjah_intl).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Sharjah_International_Airport.rn5"),sharjah_intl).
 airdrome(runway_name('0'("30R")),sharjah_intl).
 airdrome(runway_name('1'("12L")),sharjah_intl).
 airdrome(runway_name('2'("30L")),sharjah_intl).
@@ -5349,10 +5104,8 @@ airdrome(names(en("Sirri Island")),sirri_island).
 airdrome(radio("airfield15_0"),sirri_island).
 airdrome(reference_point(x(-26946.104553)),sirri_island).
 airdrome(reference_point(y(-170745.015625)),sirri_island).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Siri_Island_AFB.rn4"),
-	 sirri_island).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Siri_Island_AFB.rn5"),
-	 sirri_island).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Siri_Island_AFB.rn4"),sirri_island).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Siri_Island_AFB.rn5"),sirri_island).
 airdrome(runway_name('0'("30")),sirri_island).
 airdrome(runway_name('1'("12")),sirri_island).
 airdrome(runways(end(0,"12")),sirri_island).
@@ -5383,10 +5136,8 @@ airdrome(id("Tonb_e_Kochak_Airport"),tunb_kochak).
 airdrome(names(en("Tunb Kochak")),tunb_kochak).
 airdrome(reference_point(x(9023.430176)),tunb_kochak).
 airdrome(reference_point(y(-109467.078125)),tunb_kochak).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Tonb_e_Kochak_Airport.rn4"),
-	 tunb_kochak).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Tonb_e_Kochak_Airport.rn5"),
-	 tunb_kochak).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Tonb_e_Kochak_Airport.rn4"),tunb_kochak).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Tonb_e_Kochak_Airport.rn5"),tunb_kochak).
 airdrome(runway_name('0'("26")),tunb_kochak).
 airdrome(runway_name('1'("08")),tunb_kochak).
 airdrome(runways(end(0,"08")),tunb_kochak).
@@ -5411,10 +5162,8 @@ airdrome(id("Sir_Abu_Nuair_ Island_Airport"),sir_abu_nuayr).
 airdrome(names(en("Sir Abu Nuayr")),sir_abu_nuayr).
 airdrome(reference_point(x(-103102.871094)),sir_abu_nuayr).
 airdrome(reference_point(y(-202973.078125)),sir_abu_nuayr).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Sir_Abu_Nuair_ Island_Airport.rn4"),
-	 sir_abu_nuayr).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Sir_Abu_Nuair_ Island_Airport.rn5"),
-	 sir_abu_nuayr).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Sir_Abu_Nuair_ Island_Airport.rn4"),sir_abu_nuayr).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Sir_Abu_Nuair_ Island_Airport.rn5"),sir_abu_nuayr).
 airdrome(runway_name('0'("28")),sir_abu_nuayr).
 airdrome(runway_name('1'("10")),sir_abu_nuayr).
 airdrome(runways(end(0,"10")),sir_abu_nuayr).
@@ -5452,10 +5201,8 @@ airdrome(names(en("Kerman Airport")),kerman_airport).
 airdrome(radio("airfield18_0"),kerman_airport).
 airdrome(reference_point(x(454116.796875)),kerman_airport).
 airdrome(reference_point(y(71096.085938)),kerman_airport).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Kerman_AFB.rn4"),
-	 kerman_airport).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Kerman_AFB.rn5"),
-	 kerman_airport).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Kerman_AFB.rn4"),kerman_airport).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Kerman_AFB.rn5"),kerman_airport).
 airdrome(runway_name('0'("34")),kerman_airport).
 airdrome(runway_name('1'("16")),kerman_airport).
 airdrome(runways(end(0,"16")),kerman_airport).
@@ -5483,35 +5230,25 @@ airdrome(theatre_of_war(persian_gulf),shiraz_international_airport).
 airdrome(en(shiraz_international_airport),shiraz_international_airport).
 airdrome(abandoned(false),shiraz_international_airport).
 airdrome(airdrome_id(19),shiraz_international_airport).
-airdrome(beacons(beacon_id(0,"airfield19_0")),
-	 shiraz_international_airport).
-airdrome(beacons(beacon_id(1,"airfield19_1")),
-	 shiraz_international_airport).
-airdrome(beacons(beacon_id(2,"airfield19_2")),
-	 shiraz_international_airport).
-airdrome(beacons(beacon_id(3,"airfield19_3")),
-	 shiraz_international_airport).
+airdrome(beacons(beacon_id(0,"airfield19_0")),shiraz_international_airport).
+airdrome(beacons(beacon_id(1,"airfield19_1")),shiraz_international_airport).
+airdrome(beacons(beacon_id(2,"airfield19_2")),shiraz_international_airport).
+airdrome(beacons(beacon_id(3,"airfield19_3")),shiraz_international_airport).
 airdrome(beacons(runway_id(3,1)),shiraz_international_airport).
 airdrome(beacons(runway_name(3,"11R-29L")),shiraz_international_airport).
 airdrome(beacons(runway_side(3,"29L")),shiraz_international_airport).
-airdrome(beacons(beacon_id(4,"airfield19_4")),
-	 shiraz_international_airport).
+airdrome(beacons(beacon_id(4,"airfield19_4")),shiraz_international_airport).
 airdrome(beacons(runway_id(4,1)),shiraz_international_airport).
 airdrome(beacons(runway_name(4,"11R-29L")),shiraz_international_airport).
 airdrome(beacons(runway_side(4,"29L")),shiraz_international_airport).
 airdrome(civilian(false),shiraz_international_airport).
 airdrome(class("1"),shiraz_international_airport).
 airdrome(code("OISS"),shiraz_international_airport).
-airdrome(default_camera_position(bearing(0)),
-	 shiraz_international_airport).
-airdrome(default_camera_position(pnt(380916.71875)),
-	 shiraz_international_airport).
-airdrome(default_camera_position(pnt(749.758728)),
-	 shiraz_international_airport).
-airdrome(default_camera_position(pnt(-352131.8125)),
-	 shiraz_international_airport).
-airdrome(display_name("Shiraz International Airport"),
-	 shiraz_international_airport).
+airdrome(default_camera_position(bearing(0)),shiraz_international_airport).
+airdrome(default_camera_position(pnt(380916.71875)),shiraz_international_airport).
+airdrome(default_camera_position(pnt(749.758728)),shiraz_international_airport).
+airdrome(default_camera_position(pnt(-352131.8125)),shiraz_international_airport).
+airdrome(display_name("Shiraz International Airport"),shiraz_international_airport).
 airdrome(fueldepots("externalId:290035"),shiraz_international_airport).
 airdrome(fueldepots("externalId:290036"),shiraz_international_airport).
 airdrome(fueldepots("externalId:290037"),shiraz_international_airport).
@@ -5526,16 +5263,12 @@ airdrome(fueldepots("externalId:290045"),shiraz_international_airport).
 airdrome(fueldepots("externalId:290046"),shiraz_international_airport).
 airdrome(fueldepots("externalId:290047"),shiraz_international_airport).
 airdrome(id("Shiraz_AFB"),shiraz_international_airport).
-airdrome(names(en("Shiraz International Airport")),
-	 shiraz_international_airport).
+airdrome(names(en("Shiraz International Airport")),shiraz_international_airport).
 airdrome(radio("airfield19_0"),shiraz_international_airport).
 airdrome(reference_point(x(381101.03125)),shiraz_international_airport).
-airdrome(reference_point(y(-351636.515625)),
-	 shiraz_international_airport).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Shiraz_AFB.rn4"),
-	 shiraz_international_airport).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Shiraz_AFB.rn5"),
-	 shiraz_international_airport).
+airdrome(reference_point(y(-351636.515625)),shiraz_international_airport).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Shiraz_AFB.rn4"),shiraz_international_airport).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Shiraz_AFB.rn5"),shiraz_international_airport).
 airdrome(runway_name('0'("29R")),shiraz_international_airport).
 airdrome(runway_name('1'("11L")),shiraz_international_airport).
 airdrome(runway_name('2'("29L")),shiraz_international_airport).
@@ -5594,11 +5327,9 @@ airdrome(civilian(false),sas_al_nakheel_airport).
 airdrome(class("2"),sas_al_nakheel_airport).
 airdrome(code("OMNK"),sas_al_nakheel_airport).
 airdrome(default_camera_position(bearing(0)),sas_al_nakheel_airport).
-airdrome(default_camera_position(pnt(-189655.140625)),
-	 sas_al_nakheel_airport).
+airdrome(default_camera_position(pnt(-189655.140625)),sas_al_nakheel_airport).
 airdrome(default_camera_position(pnt(1.5)),sas_al_nakheel_airport).
-airdrome(default_camera_position(pnt(-175924.765625)),
-	 sas_al_nakheel_airport).
+airdrome(default_camera_position(pnt(-175924.765625)),sas_al_nakheel_airport).
 airdrome(display_name("Sas Al Nakheel Airport"),sas_al_nakheel_airport).
 airdrome(fueldepots("externalId:300000"),sas_al_nakheel_airport).
 airdrome(fueldepots("externalId:300001"),sas_al_nakheel_airport).
@@ -5617,10 +5348,8 @@ airdrome(names(en("Sas Al Nakheel Airport")),sas_al_nakheel_airport).
 airdrome(radio("airfield20_0"),sas_al_nakheel_airport).
 airdrome(reference_point(x(-189610.289063)),sas_al_nakheel_airport).
 airdrome(reference_point(y(-175974.148438)),sas_al_nakheel_airport).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Sas_Al_Nakheel_Airport.rn4"),
-	 sas_al_nakheel_airport).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Sas_Al_Nakheel_Airport.rn5"),
-	 sas_al_nakheel_airport).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Sas_Al_Nakheel_Airport.rn4"),sas_al_nakheel_airport).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Sas_Al_Nakheel_Airport.rn5"),sas_al_nakheel_airport).
 airdrome(runway_name('0'("16")),sas_al_nakheel_airport).
 airdrome(runway_name('1'("46")),sas_al_nakheel_airport).
 airdrome(runways(end(0,"46")),sas_al_nakheel_airport).
@@ -5645,11 +5374,9 @@ airdrome(civilian(false),bandar_e_jask_airfield).
 airdrome(class("3"),bandar_e_jask_airfield).
 airdrome(code("OIZJ"),bandar_e_jask_airfield).
 airdrome(default_camera_position(bearing(0)),bandar_e_jask_airfield).
-airdrome(default_camera_position(pnt(-57207.757813)),
-	 bandar_e_jask_airfield).
+airdrome(default_camera_position(pnt(-57207.757813)),bandar_e_jask_airfield).
 airdrome(default_camera_position(pnt(4)),bandar_e_jask_airfield).
-airdrome(default_camera_position(pnt(156049.3125)),
-	 bandar_e_jask_airfield).
+airdrome(default_camera_position(pnt(156049.3125)),bandar_e_jask_airfield).
 airdrome(display_name("Bandar-e-Jask airfield"),bandar_e_jask_airfield).
 airdrome(fueldepots("externalId:310004"),bandar_e_jask_airfield).
 airdrome(fueldepots("externalId:310005"),bandar_e_jask_airfield).
@@ -5660,10 +5387,8 @@ airdrome(id("Bandar_e_Jask_airfield"),bandar_e_jask_airfield).
 airdrome(names(en("Bandar-e-Jask airfield")),bandar_e_jask_airfield).
 airdrome(reference_point(x(-57247.5)),bandar_e_jask_airfield).
 airdrome(reference_point(y(156196.507813)),bandar_e_jask_airfield).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Bandar_e_Jask_airfield.rn4"),
-	 bandar_e_jask_airfield).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Bandar_e_Jask_airfield.rn5"),
-	 bandar_e_jask_airfield).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Bandar_e_Jask_airfield.rn4"),bandar_e_jask_airfield).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Bandar_e_Jask_airfield.rn5"),bandar_e_jask_airfield).
 airdrome(runway_name('0'("6")),bandar_e_jask_airfield).
 airdrome(runway_name('1'("24")),bandar_e_jask_airfield).
 airdrome(runways(end(0,"24")),bandar_e_jask_airfield).
@@ -5675,27 +5400,19 @@ airdrome(warehouses("externalId:310001"),bandar_e_jask_airfield).
 airdrome(warehouses("externalId:310002"),bandar_e_jask_airfield).
 airdrome(warehouses("externalId:310003"),bandar_e_jask_airfield).
 airdrome(theatre_of_war(persian_gulf),abu_dhabi_international_airport).
-airdrome(en(abu_dhabi_international_airport),
-	 abu_dhabi_international_airport).
+airdrome(en(abu_dhabi_international_airport),abu_dhabi_international_airport).
 airdrome(abandoned(false),abu_dhabi_international_airport).
 airdrome(airdrome_id(22),abu_dhabi_international_airport).
-airdrome(beacons(beacon_id(0,"airfield22_0")),
-	 abu_dhabi_international_airport).
-airdrome(beacons(beacon_id(1,"airfield22_1")),
-	 abu_dhabi_international_airport).
+airdrome(beacons(beacon_id(0,"airfield22_0")),abu_dhabi_international_airport).
+airdrome(beacons(beacon_id(1,"airfield22_1")),abu_dhabi_international_airport).
 airdrome(civilian(true),abu_dhabi_international_airport).
 airdrome(class("1"),abu_dhabi_international_airport).
 airdrome(code("OMAA"),abu_dhabi_international_airport).
-airdrome(default_camera_position(bearing(0)),
-	 abu_dhabi_international_airport).
-airdrome(default_camera_position(pnt(-189960.671875)),
-	 abu_dhabi_international_airport).
-airdrome(default_camera_position(pnt(14)),
-	 abu_dhabi_international_airport).
-airdrome(default_camera_position(pnt(-162598.875)),
-	 abu_dhabi_international_airport).
-airdrome(display_name("Abu Dhabi International Airport"),
-	 abu_dhabi_international_airport).
+airdrome(default_camera_position(bearing(0)),abu_dhabi_international_airport).
+airdrome(default_camera_position(pnt(-189960.671875)),abu_dhabi_international_airport).
+airdrome(default_camera_position(pnt(14)),abu_dhabi_international_airport).
+airdrome(default_camera_position(pnt(-162598.875)),abu_dhabi_international_airport).
+airdrome(display_name("Abu Dhabi International Airport"),abu_dhabi_international_airport).
 airdrome(fueldepots("externalId:320053"),abu_dhabi_international_airport).
 airdrome(fueldepots("externalId:320054"),abu_dhabi_international_airport).
 airdrome(fueldepots("externalId:320055"),abu_dhabi_international_airport).
@@ -5732,19 +5449,13 @@ airdrome(fueldepots("externalId:320085"),abu_dhabi_international_airport).
 airdrome(fueldepots("externalId:320086"),abu_dhabi_international_airport).
 airdrome(fueldepots("externalId:320087"),abu_dhabi_international_airport).
 airdrome(fueldepots("externalId:320088"),abu_dhabi_international_airport).
-airdrome(id("Abu_Dhabi_International_Airport"),
-	 abu_dhabi_international_airport).
-airdrome(names(en("Abu Dhabi International Airport")),
-	 abu_dhabi_international_airport).
+airdrome(id("Abu_Dhabi_International_Airport"),abu_dhabi_international_airport).
+airdrome(names(en("Abu Dhabi International Airport")),abu_dhabi_international_airport).
 airdrome(radio("airfield22_0"),abu_dhabi_international_airport).
-airdrome(reference_point(x(-188457.460938)),
-	 abu_dhabi_international_airport).
-airdrome(reference_point(y(-162030.984375)),
-	 abu_dhabi_international_airport).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Abu_Dhabi_International_Airport.rn4"),
-	 abu_dhabi_international_airport).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Abu_Dhabi_International_Airport.rn5"),
-	 abu_dhabi_international_airport).
+airdrome(reference_point(x(-188457.460938)),abu_dhabi_international_airport).
+airdrome(reference_point(y(-162030.984375)),abu_dhabi_international_airport).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Abu_Dhabi_International_Airport.rn4"),abu_dhabi_international_airport).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Abu_Dhabi_International_Airport.rn5"),abu_dhabi_international_airport).
 airdrome(runway_name('0'("13")),abu_dhabi_international_airport).
 airdrome(runway_name('1'("31")),abu_dhabi_international_airport).
 airdrome(runway_name('2'("31")),abu_dhabi_international_airport).
@@ -5842,10 +5553,8 @@ airdrome(names(en("Al-Bateen Airport")),al_bateen_airport).
 airdrome(radio("airfield23_0"),al_bateen_airport).
 airdrome(reference_point(x(-190946.55263)),al_bateen_airport).
 airdrome(reference_point(y(-181928.271658)),al_bateen_airport).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Al_Bateen_Airport.rn4"),
-	 al_bateen_airport).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Al_Bateen_Airport.rn5"),
-	 al_bateen_airport).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Al_Bateen_Airport.rn4"),al_bateen_airport).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Al_Bateen_Airport.rn5"),al_bateen_airport).
 airdrome(runway_name('0'("13")),al_bateen_airport).
 airdrome(runway_name('1'("31")),al_bateen_airport).
 airdrome(runways(end(0,"31")),al_bateen_airport).
@@ -5866,15 +5575,11 @@ airdrome(beacons(beacon_id(1,"airfield24_1")),kish_international_airport).
 airdrome(civilian(true),kish_international_airport).
 airdrome(class("1"),kish_international_airport).
 airdrome(code("OIBK"),kish_international_airport).
-airdrome(default_camera_position(bearing(0)),
-	 kish_international_airport).
-airdrome(default_camera_position(pnt(42621.933594)),
-	 kish_international_airport).
+airdrome(default_camera_position(bearing(0)),kish_international_airport).
+airdrome(default_camera_position(pnt(42621.933594)),kish_international_airport).
 airdrome(default_camera_position(pnt(17.5)),kish_international_airport).
-airdrome(default_camera_position(pnt(-225119.59375)),
-	 kish_international_airport).
-airdrome(display_name("Kish International Airport"),
-	 kish_international_airport).
+airdrome(default_camera_position(pnt(-225119.59375)),kish_international_airport).
+airdrome(display_name("Kish International Airport"),kish_international_airport).
 airdrome(fueldepots("externalId:340004"),kish_international_airport).
 airdrome(fueldepots("externalId:340005"),kish_international_airport).
 airdrome(fueldepots("externalId:340006"),kish_international_airport).
@@ -5882,15 +5587,12 @@ airdrome(fueldepots("externalId:340007"),kish_international_airport).
 airdrome(fueldepots("externalId:340008"),kish_international_airport).
 airdrome(fueldepots("externalId:340009"),kish_international_airport).
 airdrome(id("Kish_International_Airport"),kish_international_airport).
-airdrome(names(en("Kish International Airport")),
-	 kish_international_airport).
+airdrome(names(en("Kish International Airport")),kish_international_airport).
 airdrome(radio("airfield24_0"),kish_international_airport).
 airdrome(reference_point(x(42784.291016)),kish_international_airport).
 airdrome(reference_point(y(-225094.046875)),kish_international_airport).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Kish_International_Airport.rn4"),
-	 kish_international_airport).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Kish_International_Airport.rn5"),
-	 kish_international_airport).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Kish_International_Airport.rn4"),kish_international_airport).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Kish_International_Airport.rn5"),kish_international_airport).
 airdrome(runway_name('0'("10")),kish_international_airport).
 airdrome(runway_name('1'("28")),kish_international_airport).
 airdrome(runway_name('2'("10")),kish_international_airport).
@@ -5912,21 +5614,15 @@ airdrome(theatre_of_war(persian_gulf),al_ain_international_airport).
 airdrome(en(al_ain_international_airport),al_ain_international_airport).
 airdrome(abandoned(false),al_ain_international_airport).
 airdrome(airdrome_id(25),al_ain_international_airport).
-airdrome(beacons(beacon_id(0,"airfield25_0")),
-	 al_ain_international_airport).
+airdrome(beacons(beacon_id(0,"airfield25_0")),al_ain_international_airport).
 airdrome(civilian(true),al_ain_international_airport).
 airdrome(class("1"),al_ain_international_airport).
 airdrome(code("OMAL"),al_ain_international_airport).
-airdrome(default_camera_position(bearing(0)),
-	 al_ain_international_airport).
-airdrome(default_camera_position(pnt(-211277.40625)),
-	 al_ain_international_airport).
-airdrome(default_camera_position(pnt(124.024635)),
-	 al_ain_international_airport).
-airdrome(default_camera_position(pnt(-65153.5)),
-	 al_ain_international_airport).
-airdrome(display_name("Al Ain International Airport"),
-	 al_ain_international_airport).
+airdrome(default_camera_position(bearing(0)),al_ain_international_airport).
+airdrome(default_camera_position(pnt(-211277.40625)),al_ain_international_airport).
+airdrome(default_camera_position(pnt(124.024635)),al_ain_international_airport).
+airdrome(default_camera_position(pnt(-65153.5)),al_ain_international_airport).
+airdrome(display_name("Al Ain International Airport"),al_ain_international_airport).
 airdrome(fueldepots("externalId:350017"),al_ain_international_airport).
 airdrome(fueldepots("externalId:350018"),al_ain_international_airport).
 airdrome(fueldepots("externalId:350019"),al_ain_international_airport).
@@ -5941,17 +5637,12 @@ airdrome(fueldepots("externalId:350027"),al_ain_international_airport).
 airdrome(fueldepots("externalId:350028"),al_ain_international_airport).
 airdrome(fueldepots("externalId:350029"),al_ain_international_airport).
 airdrome(id("Al_Ain_International_Airport"),al_ain_international_airport).
-airdrome(names(en("Al Ain International Airport")),
-	 al_ain_international_airport).
+airdrome(names(en("Al Ain International Airport")),al_ain_international_airport).
 airdrome(radio("airfield25_0"),al_ain_international_airport).
-airdrome(reference_point(x(-211058.15625)),
-	 al_ain_international_airport).
-airdrome(reference_point(y(-65421.177734)),
-	 al_ain_international_airport).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Al_Ain_International_Airport.rn4"),
-	 al_ain_international_airport).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Al_Ain_International_Airport.rn5"),
-	 al_ain_international_airport).
+airdrome(reference_point(x(-211058.15625)),al_ain_international_airport).
+airdrome(reference_point(y(-65421.177734)),al_ain_international_airport).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Al_Ain_International_Airport.rn4"),al_ain_international_airport).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Al_Ain_International_Airport.rn5"),al_ain_international_airport).
 airdrome(runway_name('0'("19")),al_ain_international_airport).
 airdrome(runway_name('1'("1")),al_ain_international_airport).
 airdrome(runways(end(0,"1")),al_ain_international_airport).
@@ -5986,11 +5677,9 @@ airdrome(civilian(false),lavan_island_airport).
 airdrome(class("2"),lavan_island_airport).
 airdrome(code("OIBV"),lavan_island_airport).
 airdrome(default_camera_position(bearing(0)),lavan_island_airport).
-airdrome(default_camera_position(pnt(75775.65625)),
-	 lavan_island_airport).
+airdrome(default_camera_position(pnt(75775.65625)),lavan_island_airport).
 airdrome(default_camera_position(pnt(11.5)),lavan_island_airport).
-airdrome(default_camera_position(pnt(-286808.625)),
-	 lavan_island_airport).
+airdrome(default_camera_position(pnt(-286808.625)),lavan_island_airport).
 airdrome(display_name("Lavan Island Airport"),lavan_island_airport).
 airdrome(fueldepots("externalId:360008"),lavan_island_airport).
 airdrome(fueldepots("externalId:360009"),lavan_island_airport).
@@ -6004,10 +5693,8 @@ airdrome(names(en("Lavan Island Airport")),lavan_island_airport).
 airdrome(radio("airfield26_0"),lavan_island_airport).
 airdrome(reference_point(x(75789.741687)),lavan_island_airport).
 airdrome(reference_point(y(-286801.46313)),lavan_island_airport).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Lavan_Island_Airport.rn4"),
-	 lavan_island_airport).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Lavan_Island_Airport.rn5"),
-	 lavan_island_airport).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Lavan_Island_Airport.rn4"),lavan_island_airport).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Lavan_Island_Airport.rn5"),lavan_island_airport).
 airdrome(runway_name('0'("11")),lavan_island_airport).
 airdrome(runway_name('1'("29")),lavan_island_airport).
 airdrome(runways(end(0,"29")),lavan_island_airport).
@@ -6044,10 +5731,8 @@ airdrome(names(en("Jiroft Airport")),jiroft_airport).
 airdrome(radio("airfield27_0"),jiroft_airport).
 airdrome(reference_point(x(282607.962896)),jiroft_airport).
 airdrome(reference_point(y(141685.262108)),jiroft_airport).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Jiroft_airfield.rn4"),
-	 jiroft_airport).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Jiroft_airfield.rn5"),
-	 jiroft_airport).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Jiroft_airfield.rn4"),jiroft_airport).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Jiroft_airfield.rn5"),jiroft_airport).
 airdrome(runway_name('0'("13")),jiroft_airport).
 airdrome(runway_name('1'("31")),jiroft_airport).
 airdrome(runways(end(0,"31")),jiroft_airport).
@@ -6089,10 +5774,8 @@ airdrome(names(en("Ras Al Khaimah")),ras_al_khaimah).
 airdrome(radio("airfield28_0"),ras_al_khaimah).
 airdrome(reference_point(x(-61624.488064)),ras_al_khaimah).
 airdrome(reference_point(y(-30795.647521)),ras_al_khaimah).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Ras_Al_Khaimah_International_Airport.rn4"),
-	 ras_al_khaimah).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Ras_Al_Khaimah_International_Airport.rn5"),
-	 ras_al_khaimah).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Ras_Al_Khaimah_International_Airport.rn4"),ras_al_khaimah).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Ras_Al_Khaimah_International_Airport.rn5"),ras_al_khaimah).
 airdrome(runway_name('0'("35")),ras_al_khaimah).
 airdrome(runway_name('1'("17")),ras_al_khaimah).
 airdrome(runways(end(0,"17")),ras_al_khaimah).
@@ -6130,10 +5813,8 @@ airdrome(names(en("Liwa Airbase")),liwa_airbase).
 airdrome(radio("airfield29_0"),liwa_airbase).
 airdrome(reference_point(x(-275765.53125)),liwa_airbase).
 airdrome(reference_point(y(-248213.578125)),liwa_airbase).
-airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Liwa_Airbase.rn4"),
-	 liwa_airbase).
-airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Liwa_Airbase.rn5"),
-	 liwa_airbase).
+airdrome(roadnet("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Liwa_Airbase.rn4"),liwa_airbase).
+airdrome(roadnet5("./Mods/terrains/PersianGulf/AirfieldsTaxiways/Liwa_Airbase.rn5"),liwa_airbase).
 airdrome(runway_name('0'("13")),liwa_airbase).
 airdrome(runway_name('1'("31")),liwa_airbase).
 airdrome(runways(end(0,"31")),liwa_airbase).
@@ -6166,10 +5847,8 @@ airdrome(names(en("Abbeville Drucat")),abbeville_drucat).
 airdrome(radio("airfield1_0"),abbeville_drucat).
 airdrome(reference_point(x(-81676.550781)),abbeville_drucat).
 airdrome(reference_point(y(15906.308105)),abbeville_drucat).
-airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/Abbeville_Drucat.rn4"),
-	 abbeville_drucat).
-airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/Abbeville_Drucat.rn5"),
-	 abbeville_drucat).
+airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/Abbeville_Drucat.rn4"),abbeville_drucat).
+airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/Abbeville_Drucat.rn5"),abbeville_drucat).
 airdrome(runway_name('0'("20")),abbeville_drucat).
 airdrome(runway_name('1'("02")),abbeville_drucat).
 airdrome(runway_name('2'("27")),abbeville_drucat).
@@ -6207,10 +5886,8 @@ airdrome(names(en("Merville Calonne")),merville_calonne).
 airdrome(radio("airfield2_0"),merville_calonne).
 airdrome(reference_point(x(-29173.647461)),merville_calonne).
 airdrome(reference_point(y(74342.222656)),merville_calonne).
-airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/Merville_Calonne.rn4"),
-	 merville_calonne).
-airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/Merville_Calonne.rn5"),
-	 merville_calonne).
+airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/Merville_Calonne.rn4"),merville_calonne).
+airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/Merville_Calonne.rn5"),merville_calonne).
 airdrome(runway_name('0'("03")),merville_calonne).
 airdrome(runway_name('1'("21")),merville_calonne).
 airdrome(runways(end(0,"21")),merville_calonne).
@@ -6229,12 +5906,9 @@ airdrome(civilian(false),saint_omer_longuenesse).
 airdrome(class("1"),saint_omer_longuenesse).
 airdrome(code(""),saint_omer_longuenesse).
 airdrome(default_camera_position(bearing(0)),saint_omer_longuenesse).
-airdrome(default_camera_position(pnt(-17035.675781)),
-	 saint_omer_longuenesse).
-airdrome(default_camera_position(pnt(54.576942)),
-	 saint_omer_longuenesse).
-airdrome(default_camera_position(pnt(45392.210938)),
-	 saint_omer_longuenesse).
+airdrome(default_camera_position(pnt(-17035.675781)),saint_omer_longuenesse).
+airdrome(default_camera_position(pnt(54.576942)),saint_omer_longuenesse).
+airdrome(default_camera_position(pnt(45392.210938)),saint_omer_longuenesse).
 airdrome(display_name("Saint Omer Longuenesse"),saint_omer_longuenesse).
 airdrome(fueldepots("externalId:130003"),saint_omer_longuenesse).
 airdrome(fueldepots("externalId:130004"),saint_omer_longuenesse).
@@ -6244,10 +5918,8 @@ airdrome(names(en("Saint Omer Longuenesse")),saint_omer_longuenesse).
 airdrome(radio("airfield3_0"),saint_omer_longuenesse).
 airdrome(reference_point(x(-16951.71582)),saint_omer_longuenesse).
 airdrome(reference_point(y(45171.712891)),saint_omer_longuenesse).
-airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/SaintOmer_Longuenesse.rn4"),
-	 saint_omer_longuenesse).
-airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/SaintOmer_Longuenesse.rn5"),
-	 saint_omer_longuenesse).
+airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/SaintOmer_Longuenesse.rn4"),saint_omer_longuenesse).
+airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/SaintOmer_Longuenesse.rn5"),saint_omer_longuenesse).
 airdrome(runway_name('0'("08")),saint_omer_longuenesse).
 airdrome(runway_name('1'("26")),saint_omer_longuenesse).
 airdrome(runways(end(0,"26")),saint_omer_longuenesse).
@@ -6279,10 +5951,8 @@ airdrome(names(en("Dunkirk Mardyck")),dunkirk_mardyck).
 airdrome(radio("airfield4_0"),dunkirk_mardyck).
 airdrome(reference_point(x(16494.189453)),dunkirk_mardyck).
 airdrome(reference_point(y(46950.742188)),dunkirk_mardyck).
-airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/Dunkirk_Mardyck.rn4"),
-	 dunkirk_mardyck).
-airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/Dunkirk_Mardyck.rn5"),
-	 dunkirk_mardyck).
+airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/Dunkirk_Mardyck.rn4"),dunkirk_mardyck).
+airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/Dunkirk_Mardyck.rn5"),dunkirk_mardyck).
 airdrome(runway_name('0'("08")),dunkirk_mardyck).
 airdrome(runway_name('1'("26")),dunkirk_mardyck).
 airdrome(runways(end(0,"26")),dunkirk_mardyck).
@@ -6315,10 +5985,8 @@ airdrome(names(en("Manston")),manston).
 airdrome(radio("airfield5_0"),manston).
 airdrome(reference_point(x(52264.28125)),manston).
 airdrome(reference_point(y(-15827.487793)),manston).
-airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/Manston.rn4"),
-	 manston).
-airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/Manston.rn5"),
-	 manston).
+airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/Manston.rn4"),manston).
+airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/Manston.rn5"),manston).
 airdrome(runway_name('0'("28")),manston).
 airdrome(runway_name('1'("10")),manston).
 airdrome(runway_name('2'("23")),manston).
@@ -6356,10 +6024,8 @@ airdrome(names(en("Hawkinge")),hawkinge).
 airdrome(radio("airfield6_0"),hawkinge).
 airdrome(reference_point(x(27031.420898)),hawkinge).
 airdrome(reference_point(y(-29403.830078)),hawkinge).
-airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/Hawkinge.rn4"),
-	 hawkinge).
-airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/Hawkinge.rn5"),
-	 hawkinge).
+airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/Hawkinge.rn4"),hawkinge).
+airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/Hawkinge.rn5"),hawkinge).
 airdrome(runway_name('0'("01")),hawkinge).
 airdrome(runway_name('1'("19")),hawkinge).
 airdrome(runway_name('2'("22")),hawkinge).
@@ -6398,10 +6064,8 @@ airdrome(names(en("Lympne")),lympne).
 airdrome(radio("airfield7_0"),lympne).
 airdrome(reference_point(x(23796.457031)),lympne).
 airdrome(reference_point(y(-39541.675781)),lympne).
-airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/Lympne.rn4"),
-	 lympne).
-airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/Lympne.rn5"),
-	 lympne).
+airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/Lympne.rn4"),lympne).
+airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/Lympne.rn5"),lympne).
 airdrome(runway_name('0'("31")),lympne).
 airdrome(runway_name('1'("13")),lympne).
 airdrome(runways(end(0,"13")),lympne).
@@ -6433,10 +6097,8 @@ airdrome(names(en("Detling")),detling).
 airdrome(radio("airfield8_0"),detling).
 airdrome(reference_point(x(49629.695313)),detling).
 airdrome(reference_point(y(-67886.082031)),detling).
-airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/Detling.rn4"),
-	 detling).
-airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/Detling.rn5"),
-	 detling).
+airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/Detling.rn4"),detling).
+airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/Detling.rn5"),detling).
 airdrome(runway_name('0'("05")),detling).
 airdrome(runway_name('1'("23")),detling).
 airdrome(runways(end(0,"23")),detling).
@@ -6467,10 +6129,8 @@ airdrome(names(en("High Halden")),high_halden).
 airdrome(radio("airfield12_0"),high_halden).
 airdrome(reference_point(x(28992.270508)),high_halden).
 airdrome(reference_point(y(-62020.105469)),high_halden).
-airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/High_Halden.rn4"),
-	 high_halden).
-airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/High_Halden.rn5"),
-	 high_halden).
+airdrome(roadnet("./Mods/terrains/TheChannel/AirfieldsTaxiways/High_Halden.rn4"),high_halden).
+airdrome(roadnet5("./Mods/terrains/TheChannel/AirfieldsTaxiways/High_Halden.rn5"),high_halden).
 airdrome(runway_name('0'("29")),high_halden).
 airdrome(runway_name('1'("11")),high_halden).
 airdrome(runway_name('2'("22")),high_halden).
