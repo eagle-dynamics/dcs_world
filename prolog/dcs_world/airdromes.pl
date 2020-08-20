@@ -4,11 +4,12 @@
 
 /** <module> Aerodromes throughout terrains
  *
+ * @author R3DL1N3 <r0y@digitalcombatsimulator.world>
  */
 
 :- multifile dcs:property_of_airdrome/2.
 
-:- include(airdromes/property_of_airdrome).
+:- include(library(dcs/terrain/airdrome)).
 
 reference_of_airdrome(point(Point), Airdrome) :-
     airdrome_property(Airdrome, terrain(Terrain)),
@@ -25,7 +26,7 @@ reference_of_airdrome(point(Point), Airdrome) :-
 %       * terrain(Terrain:atom, id(AirdromeID:number))
 %
 %       Terrain and AirdromeID pair of   Airdrome. The airdrome property
-%       interface does *not* project the =terrain/1=   or  =id/1= of the
+%       interface  does  *not*  project  the   airdrome  =id/1=  of  the
 %       underlying terrain-identifier identity by  design because =id/1=
 %       clashes with the _id_  of  the   airdrome  corresponding  to the
 %       string identifier, not the numeric one.
@@ -36,10 +37,6 @@ reference_of_airdrome(point(Point), Airdrome) :-
 %       the terrain and identifier of the  airdrome and then throws away
 %       the identifier. Used  by  stand_property/2   to  find  a stand's
 %       terrain.
-%
-%   ---+++ config:Property
-%
-%   Property of Airdrome for terrain configuration.
 %
 %       * names(en(Name:string))
 %
@@ -53,18 +50,17 @@ reference_of_airdrome(point(Point), Airdrome) :-
 %   @arg AirdromeID number of aerodrome.
 
 airdrome_property(Airdrome, Property) :-
-    dcs:property_of_airdrome(defined, Airdrome),
-    (   property_of_airdrome(Property, Airdrome)
+    (   airdrome(Property, Airdrome)
     *-> true
     ;   dcs:property_of_airdrome(Property, Airdrome)
     ).
 
 dcs:property_of_airdrome(defined, Airdrome) :-
-    property_of_airdrome(en(_), Airdrome).
+    airdrome(en(_), Airdrome).
 dcs:property_of_airdrome(terrain(Terrain, id(AirdromeID)), Airdrome) :-
     dcs:property_of_airdrome(terrain(Terrain), Airdrome),
-    property_of_airdrome(airdrome_id(AirdromeID), Airdrome).
+    airdrome(airdrome_id(AirdromeID), Airdrome).
 dcs:property_of_airdrome(terrain(Terrain), Airdrome) :-
-    property_of_airdrome(theatre_of_war(Terrain), Airdrome).
+    airdrome(theatre_of_war(Terrain), Airdrome).
 dcs:property_of_airdrome(reference(Reference), Airdrome) :-
     reference_of_airdrome(Reference, Airdrome).

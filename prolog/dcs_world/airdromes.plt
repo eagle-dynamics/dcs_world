@@ -2,7 +2,7 @@
 
 :- use_module(airdromes).
 
-test(airdrome_property, [true(A==anapa_vityazevo), nondet]) :-
+test(airdrome_property, [true(A==anapa_vityazevo)]) :-
     airdrome_property(A, code("URKA")).
 test(airdrome_property, [true(A=="URKA")]) :-
     airdrome_property(anapa_vityazevo, code(A)).
