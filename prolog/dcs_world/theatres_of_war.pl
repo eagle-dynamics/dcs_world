@@ -31,6 +31,7 @@ utc_offset(nevada,                     -8).
 utc_offset(normandy,                    0).
 utc_offset(persian_gulf,                4).
 utc_offset(the_channel,                 0).
+utc_offset(syria,                       3).
 
 utc_of_theatre_of_war(offset(Offset), TheatreOfWar) :-
     utc_offset(TheatreOfWar, Offset0),
