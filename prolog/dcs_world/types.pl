@@ -115,7 +115,7 @@
 %
 %       Hence, you can discover all core type plug-ins using the
 %       following query, type_property(Type, plugin(Plugin)),
-%       plugin_property(plugin:Plugin, is_core(true)).
+%       plugin_property(Plugin, is_core(true)).
 %
 %           |      electric_locomotive      |                      railway_objects_pack                      |
 %           |          locomotive           |                      railway_objects_pack                      |
