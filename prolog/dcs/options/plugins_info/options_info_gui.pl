@@ -2,7 +2,7 @@
 
 :- initialization with_output_to_pl(options_info, all).
 
-all :- forall(each(Term), print_term(Term)).
+all :- forall(each(Term), write_term(Term)).
 
 each(options_info(Property, ID)) :-
     plugins_info(getOptionsInfo(), List),

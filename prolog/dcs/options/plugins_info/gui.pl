@@ -1,4 +1,4 @@
-:- [library(dcs_world/scripts/gui)].
+:- [library(dcs/scripts/gui)].
 
 :- public plugins_info/2.
 

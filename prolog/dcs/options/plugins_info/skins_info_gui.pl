@@ -2,7 +2,7 @@
 
 :- initialization with_output_to_pl(skins_info, all).
 
-all :- forall(each(Term), print_term(Term)).
+all :- forall(each(Term), write_term(Term)).
 
 each(skins_info(Property, ID)) :-
     plugins_info(getSkinsInfo(), List),

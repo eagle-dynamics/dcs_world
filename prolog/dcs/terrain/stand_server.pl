@@ -1,10 +1,10 @@
-:- [library(dcs_world/scripts/server)].
+:- [library(dcs/scripts/server)].
 
 :- initialization with_output_to_pl(stand, all).
 
 all :-
     wait_for_server(Variant),
-    forall(each(Variant, Term), print_term(Term)).
+    forall(each(Variant, Term), write_term(Term)).
 
 each(Variant, stand(Property, Stand)) :-
     variant_apply(Variant, theatre_of_war(_)),

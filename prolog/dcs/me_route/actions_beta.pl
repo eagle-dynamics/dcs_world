@@ -1,8 +1,8 @@
-:- [library(dcs_world/beta)].
+:- [library(dcs/scripts/beta)].
 
 :- initialization with_output_to_pl(actions, all).
 
-all :- forall(each(Term), print_term(Term)).
+all :- forall(each(Term), write_term(Term)).
 
 each(actions(Property, RouteAction)) :-
     gui(require("me_route"):actions, Dict),
