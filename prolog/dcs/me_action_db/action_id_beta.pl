@@ -1,8 +1,8 @@
-:- [library(dcs_world/scripts/beta)].
+:- [library(dcs/scripts/beta)].
 
 :- initialization with_output_to_pl(action_id, all).
 
-all :- forall(each(Term), print_term(Term)).
+all :- forall(each(Term), write_term(Term)).
 
 each(action_id(id(ID), Key)) :-
     gui(require("me_action_db"):'ActionId', Dict),

@@ -24,7 +24,7 @@
 
 :- multifile dcs:property_of_theatre_of_war/2.
 
-:- include(theatre_of_war/data).
+:- include(library(dcs/theatre_of_war/data)).
 
 utc_offset(caucasus,                    4).
 utc_offset(nevada,                     -8).

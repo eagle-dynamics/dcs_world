@@ -2,7 +2,7 @@
 
 :- multifile dcs:property_of_route_action/2.
 
-:- include(me_route/actions).
+:- include(library(dcs/me_route/actions)).
 
 route_action_property(RouteAction, Property) :-
     (   actions(Property, RouteAction)

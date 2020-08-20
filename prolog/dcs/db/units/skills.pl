@@ -1,0 +1,14 @@
+skills(name("Average"),average).
+skills(world_id(0),average).
+skills(name("Good"),good).
+skills(world_id(1),good).
+skills(name("High"),high).
+skills(world_id(2),high).
+skills(name("Excellent"),excellent).
+skills(world_id(3),excellent).
+skills(name("Random"),random).
+skills(world_id(4),random).
+skills(name("Player"),player).
+skills(world_id(5),player).
+skills(name("Client"),client).
+skills(world_id(6),client).

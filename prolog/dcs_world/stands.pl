@@ -2,14 +2,19 @@
 
 :- use_module(airdromes).
 
-/** <module> Parking spot at airdrome
+/** <module> Parking spot at aerodrome
  *
  * @author R3DL1N3 <r0y@digitalcombatsimulator.world>
  */
 
-:- include(terrain/stand).
+:- include(library(dcs/terrain/stand)).
 
 :- multifile dcs:property_of_stand/2.
+
+alpha_of_stand_name(Name, Alpha) :-
+    string_code(1, Name, Code),
+    code_type(Code, alpha),
+    string_codes(Alpha, [Code]).
 
 %!  stand_property(?Stand, ?Property) is nondet.
 %
@@ -139,7 +144,6 @@ dcs:property_of_stand(airdrome(Airdrome), Stand) :-
 dcs:property_of_stand(terrain(Terrain), Stand) :-
     dcs:property_of_stand(airdrome(Airdrome), Stand),
     airdrome_property(Airdrome, terrain(Terrain)).
-
 dcs:property_of_stand(alpha(Alpha), Stand) :-
     stand_property(Stand, name(Name)),
     alpha_of_stand_name(Name, Alpha0),
@@ -147,20 +151,14 @@ dcs:property_of_stand(alpha(Alpha), Stand) :-
 dcs:property_of_stand(plane, Stand) :-
     stand_property(Stand, name(Name)),
     \+ alpha_of_stand_name(Name, _).
-
-alpha_of_stand_name(Name, Alpha) :-
-    string_code(1, Name, Code),
-    code_type(Code, alpha),
-    string_codes(Alpha, [Code]).
-
-:- multifile dcs:property_of_point/2.
-
 dcs:property_of_stand(point(Point), Stand) :-
     dcs:property_of_stand(airdrome(Airdrome, crossroad(_)), Stand),
     airdrome_property(Airdrome, terrain(Terrain, id(_))),
     once(stand_property(Stand, x(X))),
     once(stand_property(Stand, y(Y))),
     dcs:property_of_point(terrain(Terrain, point(X, Y)), Point).
+
+:- multifile dcs:property_of_point/2.
 
 dcs:property_of_point(stand(Stand), Point) :-
     dcs:property_of_stand(point(Point), Stand).

@@ -6,7 +6,7 @@
 
 :- multifile dcs:property_of_point/2.
 
-:- include(terrain/config).
+:- include(library(dcs/terrain/config)).
 
 plugin_of_terrain(Property, Terrain) :-
     plugin_property(Terrain, type("terrain")),

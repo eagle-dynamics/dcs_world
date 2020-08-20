@@ -2,7 +2,7 @@
 
 :- multifile dcs:property_of_action_type/2.
 
-:- include(me_action_db/action_type_data).
+:- include(library(dcs/me_action_db/action_type_data)).
 
 action_type_property(ActionType, Property) :-
     (   action_type_data(Property, ActionType)

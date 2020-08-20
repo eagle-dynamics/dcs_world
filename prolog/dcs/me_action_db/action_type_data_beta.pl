@@ -1,8 +1,8 @@
-:- [library(dcs_world/scripts/beta)].
+:- [library(dcs/scripts/beta)].
 
 :- initialization with_output_to_pl(action_type_data, all).
 
-all :- forall(each(Term), print_term(Term)).
+all :- forall(each(Term), write_term(Term)).
 
 each(action_type_data(Property, DisplayName)) :-
     gui(require("me_action_db"):actionTypeData, List),

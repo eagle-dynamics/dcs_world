@@ -1,8 +1,8 @@
-:- [library(dcs_world/scripts/gui)].
+:- [library(dcs/scripts/gui)].
 
 :- initialization with_output_to_pl(units, all).
 
-all :- forall(each(Term), print_term(Term)).
+all :- forall(each(Term), write_term(Term)).
 
 each(units(Property, Type)) :-
     gui(db:'Units', Units),

@@ -2,7 +2,7 @@
 
 :- multifile dcs:property_of_plugin/2.
 
-:- include(plugins_by_id).
+:- include(library(dcs/plugins_by_id)).
 
 %!  plugin_property(?Plugin, ?Property) is nondet.
 %

@@ -9,7 +9,7 @@
 
 :- multifile dcs:property_of_airdrome/2.
 
-:- include(terrain/airdrome).
+:- include(library(dcs/terrain/airdrome)).
 
 reference_of_airdrome(point(Point), Airdrome) :-
     airdrome_property(Airdrome, terrain(Terrain)),

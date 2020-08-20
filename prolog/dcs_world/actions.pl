@@ -4,8 +4,8 @@
 
 :- multifile dcs:property_of_action/2.
 
-:- include(me_action_db/action_id).
-:- include(me_action_db/actions_data).
+:- include(library(dcs/me_action_db/action_id)).
+:- include(library(dcs/me_action_db/actions_data)).
 
 action_property(Action, Property) :-
     (   actions_data(Property, Action)
