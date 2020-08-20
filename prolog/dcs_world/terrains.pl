@@ -4,6 +4,17 @@
 
 :- multifile dcs:property_of_terrain/2.
 
+:- multifile dcs:property_of_point/2.
+
+:- include(terrains/config_of_terrain).
+
+plugin_of_terrain(Property, Terrain) :-
+    plugin_property(Terrain, type("terrain")),
+    plugin_property(Terrain, Property).
+
+property_of_point(point(X, Y), [X, Y]).
+property_of_point(point(X, Y, Z), [X, Y, Z]).
+
 %!  terrain_property(?Terrain, ?Property) is nondet.
 %
 %   Terrains exist as DCS World  plug-ins.   Find  terrain properties by
@@ -45,25 +56,14 @@ dcs:property_of_terrain(defined, Terrain) :-
     dcs:property_of_terrain(id(_), Terrain).
 dcs:property_of_terrain(id(ID), Terrain) :-
     dcs:property_of_terrain(plugin:id(ID), Terrain).
-
 dcs:property_of_terrain(plugin:Property, Terrain) :-
     nonvar(Property),
-    plugin_property(plugin:Terrain, type("terrain")),
-    plugin_property(plugin:Terrain, Property).
-
-:- multifile dcs:property_of_point/2.
+    plugin_of_terrain(Property, Terrain).
+dcs:property_of_terrain(config:Property, Terrain) :-
+    nonvar(Property),
+    config_of_terrain(Property, Terrain).
 
 dcs:property_of_point(terrain(Terrain, Property), Point) :-
     terrain_property(Terrain, defined),
     property_of_point(Property, Arguments),
     Point =.. [Terrain|Arguments].
-
-property_of_point(point(X, Y), [X, Y]).
-property_of_point(point(X, Y, Z), [X, Y, Z]).
-
-dcs:property_of_terrain(config:Config, Terrain) :-
-    of_config(Config, Terrain).
-
-:- table of_config/2 as shared.
-
-:- include(terrains/of_config).
