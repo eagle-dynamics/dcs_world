@@ -3,6 +3,16 @@
 :- ensure_loaded(dcs(world)).
 :- ensure_loaded(dcs(db_units)).
 
+%!  skill_property(?Skill, ?Property) is nondet.
+%
+%   Names and world  identifiers  for  skills.   Property  of  Skill  as
+%   follows.
+%
+%       * defined
+%
+%       Succeeds if Skill has  a   world_id(WorldID)  property.  Unifies
+%       uniquely for Skill.
+
 :- multifile dcs:property_of_skill/2.
 
 skill_property(Skill, Property) :-
