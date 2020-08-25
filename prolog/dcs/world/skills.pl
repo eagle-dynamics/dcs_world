@@ -1,5 +1,6 @@
 :- module(dcs_world_skills, [skill_property/2]).
 
+:- ensure_loaded(library(dcs/world)).
 :- ensure_loaded(dcs(world)).
 :- ensure_loaded(dcs(db_units)).
 
@@ -22,6 +23,6 @@ skill_property(Skill, Property) :-
 dcs:property_of_skill(defined, Skill) :-
     dcs:property_of_skill(world_id(_), Skill).
 dcs:property_of_skill(world_id(WorldID), Skill) :-
-    dcs:property_of_skill(unit:world_id(WorldID), Skill).
+    once(dcs:property_of_skill(db:world_id(WorldID), Skill)).
 dcs:property_of_skill(name(Name), Skill) :-
-    dcs:property_of_skill(unit:name(Name), Skill).
+    once(dcs:property_of_skill(db:name(Name), Skill)).
