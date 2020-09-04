@@ -27,7 +27,8 @@
  * a_10a(enfield), a_10c(enfield) and air(enfield). They carry the same
  * world identifier in the current versions of DCS; see below.
  *
- *     ?- callname_property(Callname, world_id(ID)), Callname =.. [_, enfield].
+ *     ?- callname_property(Callname, world_id(ID)),
+ *        Callname =.. [_, enfield].
  *     Callname = a_10a(enfield), ID = 1 ;
  *     Callname = a_10c(enfield), ID = 1 ;
  *     Callname = air(enfield), ID = 1 ;
