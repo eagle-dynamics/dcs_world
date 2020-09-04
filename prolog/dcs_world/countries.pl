@@ -1,5 +1,9 @@
 :- module(dcs_world_countries, [country_property/2]).
 
+/** <module> Countries
+ *
+ */
+
 :- multifile dcs:property_of_country/2.
 
 country_property(Country, Property) :-
