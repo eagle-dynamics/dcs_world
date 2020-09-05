@@ -17,7 +17,7 @@
 %
 %   You can see them using the following queries.
 %
-%       ?- [[library(dcs/world), dcs(world/action_types)].
+%       ?- [library(dcs/world), dcs_world(action_types)].
 %       true.
 %
 %       ?- action_type_property(A, defined).
